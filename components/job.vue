@@ -15,11 +15,17 @@
 </template>
 
 <style scoped lang="scss">
+@import '~/assets/css/mixins.scss';
+
 .job-container {
   padding-top: 100px;
   padding-left: 20px;
   padding-right: 20px;
   margin: 0 auto;
+
+  @include mobile-only {
+    padding-top: 50px;
+  }
 
   .title {
     font-weight: 600;

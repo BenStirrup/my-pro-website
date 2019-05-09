@@ -50,7 +50,10 @@ export default {
   loading: { color: '#fff' },
 
   /* Global CSS */
-  css: ['@/assets/css/main.scss'],
+  css: [
+    { src: '@/assets/css/main.scss', lang: 'scss' },
+    { src: '@/assets/css/mixins.scss', lang: 'scss' }
+  ],
 
   /* Plugins to load before mounting the App */
   plugins: [],
