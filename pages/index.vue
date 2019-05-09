@@ -2,6 +2,7 @@
   <div class="page-container">
     <navbar />
     <job />
+    <past-jobs />
   </div>
 </template>
 
@@ -12,8 +13,9 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
-import Navbar from '~/components/navbar.vue'
-import Job from '~/components/job.vue'
+import Navbar from '~/components/Navbar.vue'
+import Job from '~/components/Job.vue'
+import PastJobs from '~/components/PastJobs.vue'
 
 Vue.use(VueMq, {
   breakpoints: {
@@ -30,7 +32,8 @@ Vue.component('font-awesome-icon', FontAwesomeIcon)
 export default {
   components: {
     Navbar,
-    Job
+    Job,
+    PastJobs
   }
 }
 </script>
