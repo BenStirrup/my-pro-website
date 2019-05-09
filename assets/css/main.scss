@@ -1,0 +1,130 @@
+@font-face {
+  font-family: 'SF UI';
+  font-style: normal;
+  font-weight: normal;
+  src: url('/sf-ui/SFUIText-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'SF UI';
+  font-style: italic;
+  font-weight: normal;
+  src: url('/sf-ui/SFUIText-RegularItalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'SF UI';
+  font-style: normal;
+  font-weight: 600;
+  src: url('/sf-ui/SFUIText-Semibold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'SF UI';
+  font-style: italic;
+  font-weight: 600;
+  src: url('/sf-ui/SFUIText-SemiboldItalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'SF UI';
+  font-style: normal;
+  font-weight: bold;
+  src: url('/sf-ui/SFUIText-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'SF UI';
+  font-style: italic;
+  font-weight: bold;
+  src: url('/sf-ui/SFUIText-BoldItalic.woff') format('woff');
+}
+
+@mixin mobile-only {
+  @media only screen and (max-width: 600px) {
+    @content;
+  }
+}
+
+@mixin tablet-only {
+  @media only screen and (min-width: 601px) and (max-width: 1200px) {
+    @content;
+  }
+}
+
+@mixin tablet-and-up {
+  @media only screen and (min-width: 601px) {
+    @content;
+  }
+}
+
+@mixin desktop-and-up {
+  @media only screen and (min-width: 1201px) {
+    @content;
+  }
+}
+
+:root {
+  --text-xs: calc(0.6em + 0.5vw);
+  --text-sm: calc(0.8em + 0.5vw);
+  --text-md: calc(1em + 0.5vw);
+  --text-lg: calc(2em + 0.5vw);
+  --text-xl: calc(3em + 0.5vw);
+  --text-xxl: calc(4em + 0.5vw);
+  --text-xxxl: calc(5em + 0.5vw);
+}
+
+html {
+  font-size: 12px;
+}
+
+a,
+body,
+div,
+h1,
+h2,
+h3,
+span,
+p {
+  font-family: 'SF UI', sans-serif;
+  color: black;
+}
+
+.text-xxxl {
+  font-size: var(--text-xxxl);
+}
+
+h1,
+.text-xxl {
+  font-size: var(--text-xxl);
+}
+
+h2,
+.text-xl {
+  font-size: var(--text-xl);
+}
+
+h3,
+.text-lg {
+  font-size: var(--text-lg);
+}
+
+body,
+.text-md {
+  font-size: var(--text-md);
+}
+
+p,
+.text-sm {
+  font-size: var(--text-sm);
+}
+
+.text-xs {
+  font-size: var(--text-xs);
+}
+
+a,
+.fa-bars,
+.fa-times {
+  cursor: pointer;
+}
