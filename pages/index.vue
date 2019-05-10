@@ -1,9 +1,13 @@
 <template>
   <div class="page-container">
     <navbar />
-    <job class="section" />
+    <a id="my-job" name="my-job">
+      <job class="section" />
+    </a>
     <divider />
-    <past-jobs class="section" />
+    <a id="past-jobs" name="past-jobs">
+      <past-jobs class="section" />
+    </a>
   </div>
 </template>
 

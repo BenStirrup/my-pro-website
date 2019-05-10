@@ -10,20 +10,32 @@
           <font-awesome-icon
             v-if="showResponsiveMenu"
             icon="times"
-            @click="toggleMenu()"
+            @click="hideMenu()"
           />
-          <font-awesome-icon v-else icon="bars" @click="toggleMenu()" />
+          <font-awesome-icon v-else icon="bars" @click="showMenu()" />
         </mq-layout>
         <mq-layout mq="tablet+">
-          <a class="item text-sm" href="#news">News</a>
-          <a class="item text-sm" href="#contact">Contact</a>
-          <a class="item text-sm" href="#about">About</a>
+          <a class="item text-sm" @click="scrollTo('my-job')">What I do</a>
+          <a class="item text-sm" @click="scrollTo('past-jobs')">Past work</a>
         </mq-layout>
       </div>
       <div v-if="showResponsiveMenu" class="responsive-menu">
-        <a class="responsive-item text-md" href="#news">News</a>
-        <a class="responsive-item text-md" href="#contact">Contact</a>
-        <a class="responsive-item text-md" href="#about">About</a>
+        <a
+          class="responsive-item text-md"
+          @click="
+            hideMenu()
+            scrollTo('my-job')
+          "
+          >What I do
+        </a>
+        <a
+          class="responsive-item text-md"
+          @click="
+            hideMenu()
+            scrollTo('past-jobs')
+          "
+          >Past work
+        </a>
       </div>
     </template>
   </div>
@@ -42,13 +54,23 @@ export default {
   watch: {
     isMobile: function(currentIsMobile) {
       if (!currentIsMobile) {
-        this.showResponsiveMenu = false
+        this.hideMenu()
       }
     }
   },
   methods: {
-    toggleMenu() {
-      this.showResponsiveMenu = !this.showResponsiveMenu
+    showMenu() {
+      this.showResponsiveMenu = true
+    },
+    hideMenu() {
+      this.showResponsiveMenu = false
+    },
+    scrollTo(name) {
+      document.querySelector(`[name='${name}']`).scrollIntoView({
+        behavior: 'smooth',
+        block: 'center',
+        inline: 'center'
+      })
     }
   }
 }
@@ -58,7 +80,7 @@ export default {
 .navbar-container {
   position: fixed;
   top: 0;
-  width: calc(100vw - 50px);
+  width: calc(100vw - 40px);
   max-width: 1200px;
   padding-top: 10px;
   background-color: white;
