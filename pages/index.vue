@@ -1,8 +1,9 @@
 <template>
   <div class="page-container">
     <navbar />
-    <job />
-    <past-jobs />
+    <job class="section" />
+    <divider />
+    <past-jobs class="section" />
   </div>
 </template>
 
@@ -16,6 +17,7 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import Navbar from '~/components/Navbar.vue'
 import Job from '~/components/Job.vue'
 import PastJobs from '~/components/PastJobs.vue'
+import Divider from '~/components/Divider.vue'
 
 Vue.use(VueMq, {
   breakpoints: {
@@ -33,7 +35,8 @@ export default {
   components: {
     Navbar,
     Job,
-    PastJobs
+    PastJobs,
+    Divider
   }
 }
 </script>
@@ -41,10 +44,15 @@ export default {
 <style scoped lang="scss">
 .page-container {
   margin: auto;
-  padding: 15px;
+  margin-top: 70px;
+  padding: 20px;
   min-height: 100vh;
   max-width: 1200px;
   display: flex;
   flex-direction: column;
+}
+
+.section {
+  padding: 30px 0;
 }
 </style>

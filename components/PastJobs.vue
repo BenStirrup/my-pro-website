@@ -17,7 +17,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 30px;
 
   .title {
     padding-bottom: 20px;
