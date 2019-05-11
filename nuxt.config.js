@@ -43,7 +43,27 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { theme_color: '#ffffff' }
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+    link: [
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      {
+        rel: 'preload',
+        as: 'font',
+        type: 'font/woff',
+        href: '/fonts/SFUIText-Regular.woff'
+      },
+      {
+        rel: 'preload',
+        as: 'font',
+        type: 'font/woff',
+        href: '/fonts/SFUIText-Semibold.woff'
+      },
+      {
+        rel: 'preload',
+        as: 'font',
+        type: 'font/woff',
+        href: '/fonts/SFUIText-RegularItalic.woff'
+      }
+    ]
   },
 
   /* Customize the progress-bar color */
