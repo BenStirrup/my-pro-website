@@ -3,7 +3,7 @@
     <template>
       <div class="topnav">
         <img
-          src="/logo_black.svg"
+          src="/logos/logo_black.svg"
           :style="isMobile ? 'max-width: 40px' : 'max-width: 75px'"
           alt="Logo of this website"
         />

@@ -2,17 +2,33 @@
   <div class="past-jobs-container">
     <div class="title text-xs">I worked with</div>
     <div class="logos">
-      <div class="logo-1">
-        <img src="/euler_hermes_logo_black.png" alt="Logo of Euler Hermes" />
+      <div class="euler-hermes">
+        <img
+          src="/logos/euler_hermes_logo_black.svg"
+          style="max-width: 150px; max-height: 40px"
+          alt="Logo of Euler Hermes"
+        />
       </div>
-      <div class="logo-2">
-        <img src="/sensome_logo_black.png" alt="Logo of Sensome" />
+      <div class="sensome">
+        <img
+          src="/logos/sensome_logo.svg"
+          style="max-width: 150px; max-height: 40px"
+          alt="Logo of Sensome"
+        />
       </div>
-      <div class="logo-3">
-        <img src="/sipios_logo_black.png" alt="Logo of Sipios" />
+      <div class="sipios">
+        <img
+          src="/logos/sipios_logo_black.svg"
+          style="max-width: 150px; max-height: 40px"
+          alt="Logo of Sipios"
+        />
       </div>
-      <div class="logo-4">
-        <img src="/theodo_logo_black.png" alt="Logo of Theodo" />
+      <div class="theodo">
+        <img
+          src="/logos/theodo_logo_black.svg"
+          style="max-width: 150px; max-height: 25px"
+          alt="Logo of Theodo"
+        />
       </div>
     </div>
   </div>
@@ -33,16 +49,17 @@
   .logos {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    width: 60%;
 
-    .logo-1,
-    .logo-2,
-    .logo-3,
-    .logo-4 {
-      width: 100%;
+    .euler-hermes,
+    .sensome,
+    .sipios,
+    .theodo {
       padding: 10px;
       display: flex;
       justify-content: center;
+      align-items: center;
+      width: 100%;
 
       @include tablet-only {
         width: 50%;
@@ -51,17 +68,10 @@
       @include desktop-and-up {
         width: 25%;
       }
-
-      img {
-        max-width: 150px;
-        max-height: 40px;
-      }
     }
 
-    .logo-4 {
-      img {
-        max-height: 30px;
-      }
+    .sensome {
+      filter: brightness(0);
     }
   }
 }
