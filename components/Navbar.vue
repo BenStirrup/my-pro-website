@@ -66,8 +66,8 @@ export default {
     hideMenu() {
       this.showResponsiveMenu = false
     },
-    scrollTo(name) {
-      const element = document.querySelector(`[name='${name}']`)
+    scrollTo(id) {
+      const element = document.getElementById(id)
       const scrollOptions = {
         block: 'center',
         inline: 'center'
