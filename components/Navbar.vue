@@ -67,11 +67,16 @@ export default {
       this.showResponsiveMenu = false
     },
     scrollTo(name) {
-      document.querySelector(`[name='${name}']`).scrollIntoView({
-        behavior: 'smooth',
+      const element = document.querySelector(`[name='${name}']`)
+      const scrollOptions = {
         block: 'center',
         inline: 'center'
-      })
+      }
+      if (this.$mq === 'desktop') {
+        element.scrollIntoView({ ...scrollOptions, behavior: 'smooth' })
+      } else {
+        element.scrollIntoView(scrollOptions)
+      }
     }
   }
 }
