@@ -5,6 +5,7 @@
         <img
           src="/logo_black.svg"
           :style="isMobile ? 'max-width: 40px' : 'max-width: 75px'"
+          alt="Logo of this website"
         />
         <mq-layout mq="mobile">
           <font-awesome-icon

@@ -2,10 +2,18 @@
   <div class="past-jobs-container">
     <div class="title text-xs">I worked with</div>
     <div class="logos">
-      <div class="logo-1"><img src="/euler_hermes_logo_black.png" /></div>
-      <div class="logo-2"><img src="/sensome_logo_black.png" /></div>
-      <div class="logo-3"><img src="/sipios_logo_black.png" /></div>
-      <div class="logo-4"><img src="/theodo_logo_black.png" /></div>
+      <div class="logo-1">
+        <img src="/euler_hermes_logo_black.png" alt="Logo of Euler Hermes" />
+      </div>
+      <div class="logo-2">
+        <img src="/sensome_logo_black.png" alt="Logo of Sensome" />
+      </div>
+      <div class="logo-3">
+        <img src="/sipios_logo_black.png" alt="Logo of Sipios" />
+      </div>
+      <div class="logo-4">
+        <img src="/theodo_logo_black.png" alt="Logo of Theodo" />
+      </div>
     </div>
   </div>
 </template>
