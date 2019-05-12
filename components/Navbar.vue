@@ -70,13 +70,11 @@ export default {
       const element = document.getElementById(id)
       const scrollOptions = {
         block: 'center',
-        inline: 'center'
+        inline: 'center',
+        behavior: 'smooth'
       }
-      if (this.$mq === 'desktop') {
-        element.scrollIntoView({ ...scrollOptions, behavior: 'smooth' })
-      } else {
-        element.scrollIntoView(scrollOptions)
-      }
+      element.scrollIntoView(scrollOptions)
+      history.pushState(null, null, '#' + id)
     }
   }
 }
