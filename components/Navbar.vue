@@ -15,8 +15,9 @@
           />
           <font-awesome-icon v-else icon="bars" @click="showMenu()" />
         </mq-layout>
-        <mq-layout mq="tablet+">
+        <mq-layout mq="tablet+" class="menu">
           <a class="item text-sm" @click="scrollTo('my-job')">What I do</a>
+          <vertical-divider class="item text-lg" />
           <a class="item text-sm" @click="scrollTo('past-jobs')">Past work</a>
         </mq-layout>
       </div>
@@ -29,6 +30,7 @@
           "
           >What I do
         </a>
+        <divider no-margin />
         <a
           class="responsive-item text-md"
           @click="
@@ -43,7 +45,11 @@
 </template>
 
 <script>
+import Divider from '~/components/Divider.vue'
+import VerticalDivider from '~/components/VerticalDivider.vue'
+
 export default {
+  components: { Divider, VerticalDivider },
   data() {
     return { showResponsiveMenu: false }
   },
@@ -105,9 +111,15 @@ export default {
     padding-bottom: 5px;
     border-bottom: 1px solid black;
 
-    .item {
-      text-decoration: none;
-      margin: 0 15px;
+    .menu {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .item {
+        text-decoration: none;
+        margin: 0 15px;
+      }
     }
   }
 
