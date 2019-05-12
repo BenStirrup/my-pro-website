@@ -11,7 +11,7 @@
       </div>
       <div class="sensome">
         <img
-          src="/logos/sensome_logo.svg"
+          src="/logos/sensome_logo_black.svg"
           style="max-width: 150px; max-height: 40px"
           alt="Logo of Sensome"
         />
@@ -68,10 +68,6 @@
       @include desktop-and-up {
         width: 25%;
       }
-    }
-
-    .sensome {
-      filter: brightness(0);
     }
   }
 }
