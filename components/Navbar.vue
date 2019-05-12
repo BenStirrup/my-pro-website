@@ -16,14 +16,18 @@
           <font-awesome-icon v-else icon="bars" @click="showMenu()" />
         </mq-layout>
         <mq-layout mq="tablet+" class="menu">
-          <a class="item text-sm" @click="scrollTo('my-job')">What I do</a>
+          <a class="item text-xs" @click="scrollTo('my-job')">What I do</a>
           <vertical-divider class="item text-lg" />
-          <a class="item text-sm" @click="scrollTo('past-jobs')">Past work</a>
+          <a class="item text-xs" @click="scrollTo('past-jobs')">What I did</a>
+          <vertical-divider class="item text-lg" />
+          <a class="item text-xs" @click="scrollTo('benefits')"
+            >What I offer you
+          </a>
         </mq-layout>
       </div>
       <div v-if="showResponsiveMenu" class="responsive-menu">
         <a
-          class="responsive-item text-md"
+          class="responsive-item text-sm"
           @click="
             hideMenu()
             scrollTo('my-job')
@@ -32,12 +36,21 @@
         </a>
         <divider no-margin />
         <a
-          class="responsive-item text-md"
+          class="responsive-item text-sm"
           @click="
             hideMenu()
             scrollTo('past-jobs')
           "
-          >Past work
+          >What I did
+        </a>
+        <divider no-margin />
+        <a
+          class="responsive-item text-sm"
+          @click="
+            hideMenu()
+            scrollTo('benefits')
+          "
+          >What I offer you
         </a>
       </div>
     </template>
