@@ -5,8 +5,8 @@ export default {
 
   /* PWA manifest */
   manifest: {
-    name: 'B.S. Web Development',
-    short_name: 'B.S. Web',
+    name: 'Benjamin Stirrup Web Engineering',
+    short_name: 'B.S. Web Engineering',
     theme_color: '#ffffff',
     background_color: '#ffffff',
     display: 'standalone',
@@ -35,7 +35,7 @@ export default {
   head: {
     title: 'Web development by Benjamin Stirrup',
     meta: [
-      { author: 'Benjamin Stirrup ' },
+      { author: 'Benjamin Stirrup' },
       { charset: 'utf-8' },
       { description: 'Professional web development by Benjamin Stirrup' },
       { hid: 'description', name: 'description', content: pkg.description },
@@ -57,6 +57,13 @@ export default {
         as: 'font',
         type: 'font/woff',
         href: '/fonts/SFUIText-Semibold.woff',
+        crossorigin: true
+      },
+      {
+        rel: 'preload',
+        as: 'font',
+        type: 'font/woff',
+        href: '/fonts/SFUIText-Bold.woff',
         crossorigin: true
       },
       {
