@@ -1,6 +1,7 @@
 <template>
   <div class="past-jobs-container">
-    <div class="title text-xs">I worked with</div>
+    <div class="title text-lg semi-bold">What I did</div>
+    <div class="subtitle text-sm">I worked with the following companies</div>
     <div class="logos">
       <div class="euler-hermes">
         <img
@@ -33,10 +34,15 @@
   align-items: center;
 
   .title {
-    padding-bottom: 20px;
+    padding-bottom: 50px;
+  }
+
+  .subtitle {
+    text-align: center;
   }
 
   .logos {
+    padding: 20px 0;
     display: flex;
     flex-wrap: wrap;
     width: 70%;

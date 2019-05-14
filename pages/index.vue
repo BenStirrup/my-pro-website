@@ -1,14 +1,15 @@
 <template>
-  <div class="page-container">
+  <div id="landing-page">
     <navbar />
     <a id="my-job" name="my-job" />
-    <job class="section" />
+    <job />
     <divider />
     <a id="past-jobs" name="past-jobs" />
-    <past-jobs class="section" />
+    <past-jobs />
+    <projects />
     <divider />
     <a id="benefits" name="benefits" />
-    <benefits class="section" />
+    <benefits />
   </div>
 </template>
 
@@ -16,12 +17,18 @@
 import Vue from 'vue'
 import VueMq from 'vue-mq'
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons'
+import {
+  faBars,
+  faTimes,
+  faCommentsDollar,
+  faPlaneDeparture
+} from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 import Navbar from '~/components/Navbar.vue'
 import Job from '~/components/Job.vue'
 import PastJobs from '~/components/PastJobs.vue'
+import Projects from '~/components/Projects.vue'
 import Benefits from '~/components/Benefits.vue'
 import Divider from '~/components/Divider.vue'
 
@@ -34,7 +41,7 @@ Vue.use(VueMq, {
   defaultBreakpoint: 'mobile'
 })
 
-library.add([faBars, faTimes])
+library.add([faBars, faTimes, faCommentsDollar, faPlaneDeparture])
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
 export default {
@@ -42,6 +49,7 @@ export default {
     Navbar,
     Job,
     PastJobs,
+    Projects,
     Divider,
     Benefits
   }
@@ -49,17 +57,19 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.page-container {
+@import '~/assets/css/mixins.scss';
+
+#landing-page {
   margin: auto;
-  margin-top: 70px;
   padding: 20px;
+  padding-top: 110px;
   min-height: 100vh;
   max-width: 1200px;
   display: flex;
   flex-direction: column;
-}
 
-.section {
-  padding: 30px 0;
+  @include mobile-only {
+    padding-top: 70px;
+  }
 }
 </style>

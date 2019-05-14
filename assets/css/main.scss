@@ -78,36 +78,36 @@
 }
 
 .text-xxxl {
-  @include fluid-type(font-size, 20em, 70em, 2em, 2.2em);
+  @include fluid-type(font-size, 20em, 75em, 2em, 2.2em);
 }
 
 h1,
 .text-xxl {
-  @include fluid-type(font-size, 20em, 70em, 1.8em, 2em);
+  @include fluid-type(font-size, 20em, 75em, 1.8em, 2em);
 }
 
 h2,
 .text-xl {
-  @include fluid-type(font-size, 20em, 70em, 1.6em, 1.8em);
+  @include fluid-type(font-size, 20em, 75em, 1.6em, 1.8em);
 }
 
 h3,
 .text-lg {
-  @include fluid-type(font-size, 20em, 70em, 1.4em, 1.6em);
+  @include fluid-type(font-size, 20em, 75em, 1.4em, 1.6em);
 }
 
 body,
 .text-md {
-  @include fluid-type(font-size, 20em, 70em, 1.2em, 1.4em);
+  @include fluid-type(font-size, 20em, 75em, 1.2em, 1.4em);
 }
 
 p,
 .text-sm {
-  @include fluid-type(font-size, 20em, 70em, 1em, 1.2em);
+  @include fluid-type(font-size, 20em, 75em, 1em, 1.2em);
 }
 
 .text-xs {
-  @include fluid-type(font-size, 20em, 70em, 0.8em, 1em);
+  @include fluid-type(font-size, 20em, 75em, 0.8em, 1em);
 }
 
 .bold {

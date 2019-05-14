@@ -1,6 +1,6 @@
 <template>
   <div class="benefits-container">
-    <div class="title text-md semi-bold">What I offer you</div>
+    <div class="title text-lg semi-bold">What I offer you</div>
     <div class="benefit">
       <img
         class="benefit-illustration"
@@ -21,7 +21,7 @@
         src="/benefits/undraw_finish_line.svg"
         alt="Drawing of a woman who just finished a running race"
       />
-      <div class="benefit-title text-sm">
+      <div class="benefit-title text-sm semi-bold">
         Build at lightspeed with Agile and DevOps mindsets
       </div>
       <div class="benefit-description text-xs">
@@ -44,6 +44,7 @@
   .title {
     width: 100%;
     text-align: center;
+    padding-bottom: 40px;
   }
 
   .benefit {

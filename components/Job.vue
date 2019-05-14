@@ -25,7 +25,7 @@
 
   .definition {
     text-align: justify;
-    max-width: 80%;
+    max-width: 90%;
 
     @include tablet-and-up {
       max-width: 70%;

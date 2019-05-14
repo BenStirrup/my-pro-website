@@ -13,7 +13,7 @@ export default {
 <style lang="scss" scoped>
 .divider {
   position: relative;
-  margin: 20px 0;
+  margin: 40px 0;
   height: 1px;
   width: 100%;
 }
