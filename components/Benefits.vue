@@ -1,13 +1,13 @@
 <template>
   <div class="benefits-container">
-    <div class="title text-md">What I offer you</div>
+    <div class="title text-md semi-bold">What I offer you</div>
     <div class="benefit">
       <img
         class="benefit-illustration"
         src="/benefits/undraw_business_deal.svg"
         alt="Drawing of two people shaking their hands in agreement"
       />
-      <div class="benefit-title text-sm">
+      <div class="benefit-title text-sm semi-bold">
         A team member who challenges your business
       </div>
       <div class="benefit-description text-xs">
@@ -42,7 +42,6 @@
   margin: auto;
 
   .title {
-    font-weight: 600;
     width: 100%;
     text-align: center;
   }
@@ -83,7 +82,6 @@
 
     .benefit-title {
       text-align: center;
-      font-weight: 600;
       padding-bottom: 20px;
     }
 

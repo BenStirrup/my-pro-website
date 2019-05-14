@@ -1,6 +1,6 @@
 <template>
   <div class="job-container">
-    <div class="title text-lg">Hello, I'm Benjamin Stirrup.</div>
+    <div class="title text-lg semi-bold">Hello, I'm Benjamin Stirrup.</div>
     <div class="subtitle text-md">I am a <em>lead web engineer*</em></div>
     <div class="definition text-xs">
       *An engineer who has the technical knowhow to lead the
@@ -19,23 +19,17 @@
   align-items: center;
   text-align: center;
 
-  @include mobile-only {
-    padding-top: 50px;
-  }
-
-  .title {
-    font-weight: 600;
-    padding-bottom: 20px;
-  }
-
-  .subtitle {
-    padding-bottom: 30px;
+  > div {
+    padding: 10px;
   }
 
   .definition {
-    padding-bottom: 10px;
-    max-width: 70%;
     text-align: justify;
+    max-width: 80%;
+
+    @include tablet-and-up {
+      max-width: 70%;
+    }
   }
 }
 </style>

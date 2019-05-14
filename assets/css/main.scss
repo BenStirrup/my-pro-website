@@ -46,82 +46,80 @@
   font-display: swap;
 }
 
-:root {
-  --text-xs: calc(0.6em + 0.5vw);
-  --text-sm: calc(0.8em + 0.5vw);
-  --text-md: calc(1em + 0.5vw);
-  --text-lg: calc(2em + 0.5vw);
-  --text-xl: calc(3em + 0.5vw);
-  --text-xxl: calc(4em + 0.5vw);
-  --text-xxxl: calc(5em + 0.5vw);
+@function strip-unit($number) {
+  @if type-of($number) == 'number' and not unitless($number) {
+    @return $number / ($number * 0 + 1);
+  }
+
+  @return $number;
 }
 
-html {
-  font-size: 12px;
-}
+@mixin fluid-type($properties, $min-vw, $max-vw, $min-value, $max-value) {
+  @each $property in $properties {
+    #{$property}: $min-value;
+  }
 
-a,
-body,
-div,
-h1,
-h2,
-h3,
-span,
-p {
-  font-family: 'SF UI', sans-serif;
-  color: black;
+  @media (min-width: $min-vw) {
+    @each $property in $properties {
+      #{$property}: calc(
+        #{$min-value} +
+          #{strip-unit($max-value - $min-value)} *
+          (100vw - #{$min-vw}) /
+          #{strip-unit($max-vw - $min-vw)}
+      );
+    }
+  }
+
+  @media (min-width: $max-vw) {
+    @each $property in $properties {
+      #{$property}: $max-value;
+    }
+  }
 }
 
 .text-xxxl {
-  font-size: var(--text-xxxl);
+  @include fluid-type(font-size, 20em, 70em, 2em, 2.2em);
 }
 
 h1,
 .text-xxl {
-  font-size: var(--text-xxl);
+  @include fluid-type(font-size, 20em, 70em, 1.8em, 2em);
 }
 
 h2,
 .text-xl {
-  font-size: var(--text-xl);
+  @include fluid-type(font-size, 20em, 70em, 1.6em, 1.8em);
 }
 
 h3,
 .text-lg {
-  font-size: var(--text-lg);
+  @include fluid-type(font-size, 20em, 70em, 1.4em, 1.6em);
 }
 
 body,
 .text-md {
-  font-size: var(--text-md);
+  @include fluid-type(font-size, 20em, 70em, 1.2em, 1.4em);
 }
 
 p,
 .text-sm {
-  font-size: var(--text-sm);
+  @include fluid-type(font-size, 20em, 70em, 1em, 1.2em);
 }
 
 .text-xs {
-  font-size: var(--text-xs);
+  @include fluid-type(font-size, 20em, 70em, 0.8em, 1em);
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.semi-bold {
+  font-weight: 600;
 }
 
 a,
 .fa-bars,
 .fa-times {
   cursor: pointer;
-}
-
-::-webkit-scrollbar-track {
-  display: none;
-}
-
-::-webkit-scrollbar {
-  width: 8px;
-}
-
-::-webkit-scrollbar-thumb {
-  border-radius: 10px;
-  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-  background-color: rgb(63, 58, 58);
 }
