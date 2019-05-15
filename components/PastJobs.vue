@@ -1,7 +1,7 @@
 <template>
   <div class="past-jobs-container">
     <div class="title text-lg semi-bold">What I did</div>
-    <div class="subtitle text-sm">I worked with the following companies</div>
+    <div class="subtitle text-sm">I worked with these companies</div>
     <div class="logos">
       <div class="euler-hermes">
         <img
@@ -11,9 +11,6 @@
       </div>
       <div class="candriam">
         <img src="/logos/candriam_logo_black.svg" alt="Logo of Candriam" />
-      </div>
-      <div class="sensome">
-        <img src="/logos/sensome_logo_black.svg" alt="Logo of Sensome" />
       </div>
       <div class="sipios">
         <img src="/logos/sipios_logo_black.svg" alt="Logo of Sipios" />
@@ -42,50 +39,49 @@
   }
 
   .logos {
-    padding: 20px 0;
+    padding: 30px 0;
     display: flex;
     flex-wrap: wrap;
     width: 70%;
 
+    @include tablet-only {
+      width: 80%;
+    }
+
+    @include desktop-and-up {
+      width: 90%;
+      padding: 60px 0;
+    }
+
     .euler-hermes,
     .candriam,
-    .sensome,
     .sipios,
     .theodo {
-      padding: 10px;
+      padding: 15px 0;
       display: flex;
       justify-content: center;
       align-items: center;
       width: 100%;
 
-      @include desktop-and-up {
-        width: 20%;
-      }
-
-      img {
-        max-width: 150px;
-        max-height: 40px;
-      }
-    }
-
-    .theodo {
-      img {
-        max-height: 25px;
-      }
-    }
-
-    .euler-hermes,
-    .candriam,
-    .sensome {
-      @include tablet-only {
-        width: calc(100% / 3);
-      }
-    }
-
-    .sipios,
-    .theodo {
       @include tablet-only {
         width: 50%;
+      }
+
+      @include desktop-and-up {
+        width: 25%;
+      }
+
+      img {
+        max-width: 175px;
+        @include tablet-and-up {
+          max-width: 225px;
+        }
+      }
+    }
+
+    .theodo {
+      img {
+        max-height: 40px;
       }
     }
   }
