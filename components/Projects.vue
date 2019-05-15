@@ -44,11 +44,15 @@
   }
 
   .projects {
-    padding: 10px 0;
+    padding: 20px 0;
     padding-bottom: 0;
     display: flex;
     flex-wrap: wrap;
     width: 90%;
+
+    @include tablet-and-up {
+      padding: 50px 0;
+    }
 
     .project {
       padding: 30px;
