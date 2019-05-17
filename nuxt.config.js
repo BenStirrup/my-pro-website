@@ -81,8 +81,8 @@ export default {
 
   /* Global CSS */
   css: [
-    { src: '@/assets/css/main.scss', lang: 'scss' },
-    { src: '@/assets/css/mixins.scss', lang: 'scss' }
+    { src: '@/assets/style/main.scss', lang: 'scss' },
+    { src: '@/assets/style/mixins.scss', lang: 'scss' }
   ],
 
   /* Plugins to load before mounting the App */

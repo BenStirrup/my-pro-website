@@ -1,7 +1,7 @@
 <template>
   <div class="past-jobs-container">
-    <div class="title text-lg semi-bold">What I did</div>
-    <div class="subtitle text-sm">I worked with these companies</div>
+    <div class="heading text-lg semi-bold">What I did</div>
+    <div class="paragraph text-sm">I worked with these companies</div>
     <div class="logos">
       <div class="euler-hermes">
         <img
@@ -23,18 +23,18 @@
 </template>
 
 <style scoped lang="scss">
-@import '~/assets/css/mixins.scss';
+@import '~/assets/style/mixins.scss';
 
 .past-jobs-container {
   display: flex;
   flex-direction: column;
   align-items: center;
 
-  .title {
+  .heading {
     padding-bottom: 50px;
   }
 
-  .subtitle {
+  .paragraph {
     text-align: center;
   }
 

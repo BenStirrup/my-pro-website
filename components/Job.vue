@@ -1,7 +1,7 @@
 <template>
   <div class="job-container">
-    <div class="title text-lg semi-bold">Hello, I'm Benjamin Stirrup.</div>
-    <div class="subtitle text-md">I am a <em>lead web engineer*</em></div>
+    <div class="text-lg semi-bold">Hello, I'm Benjamin Stirrup.</div>
+    <div class="text-md">I am a <em>lead web engineer*</em></div>
     <div class="definition text-xs">
       *An engineer who has the technical knowhow to lead the
       <strong>UI development</strong> across all device types as well as the
@@ -11,7 +11,7 @@
 </template>
 
 <style scoped lang="scss">
-@import '~/assets/css/mixins.scss';
+@import '~/assets/style/mixins.scss';
 
 .job-container {
   display: flex;

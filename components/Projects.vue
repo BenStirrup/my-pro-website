@@ -31,7 +31,7 @@
 </template>
 
 <style scoped lang="scss">
-@import '~/assets/css/mixins.scss';
+@import '~/assets/style/mixins.scss';
 
 .projects-container {
   padding-top: 10px;

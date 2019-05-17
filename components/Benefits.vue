@@ -1,6 +1,6 @@
 <template>
   <div class="benefits-container">
-    <div class="title text-lg semi-bold">What I offer you</div>
+    <div class="heading text-lg semi-bold">What I offer you</div>
     <div class="benefits">
       <div class="benefit">
         <img
@@ -35,14 +35,14 @@
 </template>
 
 <style scoped lang="scss">
-@import '~/assets/css/mixins.scss';
+@import '~/assets/style/mixins.scss';
 
 .benefits-container {
   display: flex;
   flex-direction: column;
   align-items: center;
 
-  .title {
+  .heading {
     padding-bottom: 40px;
   }
 
