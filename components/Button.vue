@@ -13,6 +13,7 @@ button {
   background-color: gainsboro;
   border: 1.5px solid black;
   padding: 10px 5px;
+  cursor: pointer;
 }
 
 button:after {
@@ -21,10 +22,10 @@ button:after {
   position: absolute;
   left: 50%;
   top: 50%;
-  width: 240px;
-  height: 240px;
-  margin-left: -120px;
-  margin-top: -120px;
+  width: 280px;
+  height: 280px;
+  margin-left: -140px;
+  margin-top: -140px;
   background: white;
   border-radius: 100%;
   opacity: 0.7;
@@ -46,7 +47,7 @@ button:after {
 }
 
 button:not(:active):after {
-  animation: ripple 1.5s ease-out;
+  animation: ripple 1s ease-out;
 }
 
 /* fixes initial animation run, without user input, on page load. */
