@@ -25,26 +25,35 @@
               Benefits
             </v-button>
           </drop-down>
+          <v-button
+            class="item responsive text-sm"
+            value="Go to Medium blog"
+            onclick="window.location.href = 'https://medium.com/@benjamin.stirrup'"
+            >Blog
+          </v-button>
         </mq-layout>
       </div>
       <div v-if="showResponsiveMenu" class="menu responsive">
-        <v-button
-          class="item responsive text-xs"
-          @click="scrollTo('my-job'), hideMenu()"
+        <drop-down
+          class="item responsive text-sm"
+          heading="About me"
+          is-responsive
         >
-          What I do
-        </v-button>
+          <v-button class="text-xs" @click="scrollTo('my-job'), hideMenu()">
+            What I do
+          </v-button>
+          <v-button class="text-xs" @click="scrollTo('past-jobs'), hideMenu()">
+            Previous work
+          </v-button>
+          <v-button class="text-xs" @click="scrollTo('benefits'), hideMenu()">
+            Benefits
+          </v-button>
+        </drop-down>
         <v-button
-          class="item responsive text-xs"
-          @click="scrollTo('past-jobs'), hideMenu()"
-        >
-          Previous work
-        </v-button>
-        <v-button
-          class="item responsive text-xs"
-          @click="scrollTo('benefits'), hideMenu()"
-        >
-          Benefits
+          class="item responsive text-sm"
+          value="Go to Medium blog"
+          onclick="window.location.href = 'https://medium.com/@benjamin.stirrup'"
+          >Blog
         </v-button>
       </div>
     </template>
