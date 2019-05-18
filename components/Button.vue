@@ -67,5 +67,6 @@ button:hover {
   background: black;
   color: white;
   opacity: 1;
+  transition: all 0.4s ease;
 }
 </style>
