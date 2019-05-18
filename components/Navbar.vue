@@ -2,11 +2,9 @@
   <div class="navbar-container" :class="{ responsive: showResponsiveMenu }">
     <template>
       <div class="topnav">
-        <img
-          src="/logos/logo_black.svg"
-          :style="isMobile ? 'max-width: 40px' : 'max-width: 75px'"
-          alt="Logo of this website"
-        />
+        <a href="/" class="logo">
+          <img src="/logos/logo_black.svg" alt="Logo of this website" />
+        </a>
         <mq-layout mq="mobile">
           <font-awesome-icon
             v-if="showResponsiveMenu"
@@ -116,6 +114,14 @@ export default {
     align-items: center;
     padding-bottom: 5px;
     border-bottom: 2px solid black;
+
+    .logo {
+      width: 100%;
+      max-width: 40px;
+      @include tablet-and-up {
+        max-width: 75px;
+      }
+    }
   }
 }
 
