@@ -27,7 +27,7 @@ const options = {
   corporate: {
     id: 'corporate',
     buttonText: 'Corporate innovator',
-    mission: 'Together, we can can build your digital product at startup speed'
+    mission: 'Together, we can build your digital product at startup speed'
   },
   entrepreneur: {
     id: 'entrepreneur',
@@ -65,6 +65,7 @@ export default {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  width: 100%;
 
   > div {
     padding-top: 15px;
@@ -79,6 +80,7 @@ export default {
 
     @include tablet-and-up {
       flex-direction: row;
+      flex-wrap: wrap;
     }
 
     .option {
@@ -87,7 +89,7 @@ export default {
       width: 200px;
 
       @include tablet-and-up {
-        width: 250px;
+        width: 30%;
       }
 
       &.selected {
@@ -101,7 +103,7 @@ export default {
   .mission {
     width: 100%;
     @include tablet-and-up {
-      width: 50%;
+      width: 70%;
     }
   }
 }
