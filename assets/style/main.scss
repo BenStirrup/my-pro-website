@@ -110,6 +110,10 @@ p,
   @include fluid-type(font-size, 20em, 75em, 0.8em, 1em);
 }
 
+.text-xxs {
+  @include fluid-type(font-size, 20em, 75em, 0.6em, 0.8em);
+}
+
 .bold {
   font-weight: bold;
 }
