@@ -1,6 +1,6 @@
 <template>
   <div class="benefits-container">
-    <div class="heading text-lg semi-bold">What I offer you</div>
+    <div class="heading text-lg semi-bold">What makes me different</div>
     <div class="benefits">
       <div class="benefit">
         <img
@@ -44,6 +44,7 @@
 
   .heading {
     padding-bottom: 40px;
+    text-align: center;
   }
 
   .benefits {
