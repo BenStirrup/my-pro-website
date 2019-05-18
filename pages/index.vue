@@ -62,8 +62,7 @@ export default {
 #landing-page {
   margin: auto;
   padding-top: 110px;
-  width: calc(100vw - 40px);
-  min-height: 100vh;
+  width: 100vw;
   max-width: 1200px;
   display: flex;
   flex-direction: column;

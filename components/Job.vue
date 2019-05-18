@@ -42,6 +42,7 @@ export default {
 
   .definition {
     text-align: left;
+    padding-left: 40px;
     max-width: 90%;
 
     @include tablet-and-up {

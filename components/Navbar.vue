@@ -16,13 +16,13 @@
           <font-awesome-icon v-else icon="bars" @click="showMenu()" />
         </mq-layout>
         <mq-layout mq="tablet+" class="menu">
-          <v-button class="item text-xs" @click="scrollTo('my-job')">
+          <v-button class="item text-xxs" @click="scrollTo('my-job')">
             What I do
           </v-button>
-          <v-button class="item text-xs" @click="scrollTo('past-jobs')">
+          <v-button class="item text-xxs" @click="scrollTo('past-jobs')">
             Previous work
           </v-button>
-          <v-button class="item text-xs" @click="scrollTo('benefits')">
+          <v-button class="item text-xxs" @click="scrollTo('benefits')">
             Benefits
           </v-button>
         </mq-layout>
@@ -98,9 +98,10 @@ export default {
 .navbar-container {
   position: fixed;
   top: 0;
-  width: calc(100vw - 40px);
+  width: 100vw;
   max-width: 1200px;
-  padding-top: 10px;
+  padding: 15px;
+  padding-bottom: 0;
   background-color: white;
   z-index: 1;
   display: flex;
@@ -131,7 +132,7 @@ export default {
     display: flex;
     justify-content: center;
     margin: 0 5px;
-    width: 150px;
+    width: 140px;
     &.responsive {
       width: 140px;
       margin: 15px;

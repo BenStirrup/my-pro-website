@@ -82,7 +82,8 @@
       }
 
       .benefit-description {
-        text-align: justify;
+        text-align: left;
+        padding-left: 20px;
         width: 80%;
         @include tablet-only {
           width: 60%;

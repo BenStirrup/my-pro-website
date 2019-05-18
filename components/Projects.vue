@@ -84,7 +84,8 @@
         }
 
         .card-description {
-          text-align: justify;
+          text-align: left;
+          padding-left: 40px;
         }
       }
     }
