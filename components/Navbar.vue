@@ -14,15 +14,17 @@
           <font-awesome-icon v-else icon="bars" @click="showMenu()" />
         </mq-layout>
         <mq-layout mq="tablet+" class="menu">
-          <v-button class="item text-xxs" @click="scrollTo('my-job')">
-            What I do
-          </v-button>
-          <v-button class="item text-xxs" @click="scrollTo('past-jobs')">
-            Previous work
-          </v-button>
-          <v-button class="item text-xxs" @click="scrollTo('benefits')">
-            Benefits
-          </v-button>
+          <drop-down class="item text-xs" heading="About me">
+            <v-button class="text-xs" @click="scrollTo('my-job')">
+              What I do
+            </v-button>
+            <v-button class="text-xs" @click="scrollTo('past-jobs')">
+              Previous work
+            </v-button>
+            <v-button class="text-xs" @click="scrollTo('benefits')">
+              Benefits
+            </v-button>
+          </drop-down>
         </mq-layout>
       </div>
       <div v-if="showResponsiveMenu" class="menu responsive">
@@ -51,9 +53,10 @@
 
 <script>
 import Button from '~/components/Button.vue'
+import DropDown from '~/components/DropDown.vue'
 
 export default {
-  components: { 'v-button': Button },
+  components: { 'v-button': Button, DropDown },
   data() {
     return { showResponsiveMenu: false }
   },
@@ -138,9 +141,8 @@ export default {
     display: flex;
     justify-content: center;
     margin: 0 5px;
-    width: 140px;
+    width: 180px;
     &.responsive {
-      width: 140px;
       margin: 15px;
     }
   }
