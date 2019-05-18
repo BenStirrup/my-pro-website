@@ -10,6 +10,7 @@ button {
   overflow: hidden;
   text-transform: normal;
   border-radius: 5px;
+  background-color: gainsboro;
   border: 1.5px solid black;
   padding: 10px 5px;
 }
@@ -20,10 +21,10 @@ button:after {
   position: absolute;
   left: 50%;
   top: 50%;
-  width: 220px;
-  height: 220px;
-  margin-left: -110px;
-  margin-top: -110px;
+  width: 240px;
+  height: 240px;
+  margin-left: -120px;
+  margin-top: -120px;
   background: white;
   border-radius: 100%;
   opacity: 0.7;
