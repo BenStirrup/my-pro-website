@@ -51,6 +51,7 @@ export default {
 #landing-page {
   margin: auto;
   padding-top: 150px;
+  padding-bottom: 100px;
   width: 100vw;
   max-width: 1200px;
   display: flex;
@@ -58,6 +59,7 @@ export default {
 
   @include mobile-only {
     padding-top: 90px;
+    padding-bottom: 40px;
   }
 }
 </style>

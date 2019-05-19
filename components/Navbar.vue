@@ -31,13 +31,13 @@
       </div>
       <div v-if="showResponsiveMenu" class="menu responsive">
         <drop-down class="item responsive text-sm" heading="About me">
-          <v-button class="text-xs" @click="scrollTo('my-job'), hideMenu()">
+          <v-button class="text-sm" @click="scrollTo('my-job'), hideMenu()">
             What I do
           </v-button>
-          <v-button class="text-xs" @click="scrollTo('past-jobs'), hideMenu()">
+          <v-button class="text-sm" @click="scrollTo('past-jobs'), hideMenu()">
             Past work
           </v-button>
-          <v-button class="text-xs" @click="scrollTo('benefits'), hideMenu()">
+          <v-button class="text-sm" @click="scrollTo('benefits'), hideMenu()">
             What makes me different
           </v-button>
         </drop-down>

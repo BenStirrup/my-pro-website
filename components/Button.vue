@@ -47,7 +47,7 @@ button:after {
 }
 
 button:not(:active):after {
-  animation: ripple 1s ease-out;
+  animation: ripple 1.5s ease-out;
 }
 
 /* fixes initial animation run, without user input, on page load. */
