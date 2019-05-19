@@ -6,12 +6,8 @@
           <img src="/logos/logo_black.svg" alt="Logo of this website" />
         </a>
         <mq-layout mq="mobile">
-          <font-awesome-icon
-            v-if="showResponsiveMenu"
-            icon="times"
-            @click="hideMenu()"
-          />
-          <font-awesome-icon v-else icon="bars" @click="showMenu()" />
+          <i v-if="showResponsiveMenu" class="icon-times" @click="hideMenu()" />
+          <i v-else class="icon-bars" @click="showMenu()" />
         </mq-layout>
         <mq-layout mq="tablet+" class="menu">
           <drop-down class="item text-xs" heading="About me">
@@ -19,14 +15,14 @@
               What I do
             </v-button>
             <v-button class="text-xs" @click="scrollTo('past-jobs')">
-              Previous work
+              Past work
             </v-button>
             <v-button class="text-xs" @click="scrollTo('benefits')">
-              Benefits
+              What makes me different
             </v-button>
           </drop-down>
           <v-button
-            class="item responsive text-sm"
+            class="item responsive text-xs"
             value="Go to Medium blog"
             onclick="window.location.href = 'https://medium.com/@benjamin.stirrup'"
             >Blog
@@ -34,19 +30,15 @@
         </mq-layout>
       </div>
       <div v-if="showResponsiveMenu" class="menu responsive">
-        <drop-down
-          class="item responsive text-sm"
-          heading="About me"
-          is-responsive
-        >
+        <drop-down class="item responsive text-sm" heading="About me">
           <v-button class="text-xs" @click="scrollTo('my-job'), hideMenu()">
             What I do
           </v-button>
           <v-button class="text-xs" @click="scrollTo('past-jobs'), hideMenu()">
-            Previous work
+            Past work
           </v-button>
           <v-button class="text-xs" @click="scrollTo('benefits'), hideMenu()">
-            Benefits
+            What makes me different
           </v-button>
         </drop-down>
         <v-button
@@ -150,7 +142,7 @@ export default {
     display: flex;
     justify-content: center;
     margin: 0 5px;
-    width: 180px;
+    width: 200px;
     &.responsive {
       margin: 15px;
     }

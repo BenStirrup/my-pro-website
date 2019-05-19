@@ -72,6 +72,13 @@ export default {
         type: 'font/woff',
         href: '/fonts/SFUIText-RegularItalic.woff',
         crossorigin: true
+      },
+      {
+        rel: 'preload',
+        as: 'font',
+        type: 'font/woff',
+        href: '/fonts/icomoon.woff',
+        crossorigin: true
       }
     ]
   },
@@ -82,7 +89,8 @@ export default {
   /* Global CSS */
   css: [
     { src: '@/assets/style/main.scss', lang: 'scss' },
-    { src: '@/assets/style/mixins.scss', lang: 'scss' }
+    { src: '@/assets/style/mixins.scss', lang: 'scss' },
+    { src: '@/assets/style/icomoon.css', lang: 'css' }
   ],
 
   /* Plugins to load before mounting the App */

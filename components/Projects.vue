@@ -7,7 +7,11 @@
           <div class="card-title text-xs semi-bold">
             Roboadvisor for professional investors
           </div>
-          <font-awesome-icon class="icon text-xxxl" icon="comments-dollar" />
+          <img
+            class="card-illustration"
+            src="/projects/investor_tools.svg"
+            alt="Drawing of a smart phone with a dollar and a piechart"
+          />
           <div class="card-description text-xs">
             Built a B2B platform advising professional investors on optimal
             portfolio allocations according to performances and own preferences
@@ -19,7 +23,11 @@
           <div class="card-title text-xs semi-bold">
             Travel agents credit insurance platform
           </div>
-          <font-awesome-icon class="icon text-xxxl" icon="plane-departure" />
+          <img
+            class="card-illustration"
+            src="/projects/plane.svg"
+            alt="Drawing of a flying plane"
+          />
           <div class="card-description text-xs">
             Worked on a complex backend architecture with multiple interfaced
             APIs to reduce the lead time of demands from 2 weeks to 5 minutes
@@ -81,6 +89,10 @@
         .card-title {
           text-align: center;
           width: 80%;
+        }
+
+        .card-illustration {
+          max-height: 80px;
         }
 
         .card-description {

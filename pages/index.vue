@@ -16,14 +16,6 @@
 <script>
 import Vue from 'vue'
 import VueMq from 'vue-mq'
-import { library } from '@fortawesome/fontawesome-svg-core'
-import {
-  faBars,
-  faTimes,
-  faCommentsDollar,
-  faPlaneDeparture
-} from '@fortawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 import Navbar from '~/components/Navbar.vue'
 import Job from '~/components/Job.vue'
@@ -40,9 +32,6 @@ Vue.use(VueMq, {
   },
   defaultBreakpoint: 'mobile'
 })
-
-library.add([faBars, faTimes, faCommentsDollar, faPlaneDeparture])
-Vue.component('font-awesome-icon', FontAwesomeIcon)
 
 export default {
   components: {
