@@ -30,6 +30,35 @@
           measuring the impact of what I am building.
         </div>
       </div>
+      <div class="benefit">
+        <img
+          src="/benefits/programming.svg"
+          alt="Drawing of a man in front of multiple computer monitors"
+        />
+        <div class="benefit-title text-sm semi-bold">
+          Technical expertise at your service
+        </div>
+        <div class="benefit-description text-xs">
+          I am adept at developing with frontend JavaScript frameworks
+          (React.js, Vue.js) as well as backend frameworks (Django, Spring
+          Boot). In addition to my applicative knowledge, I am also experienced
+          with analytics, infrastructure and CI/CD.
+        </div>
+      </div>
+      <div class="benefit">
+        <img
+          src="/benefits/scrum_board.svg"
+          alt="Drawing of a woman and a man in front of a Scrum board"
+        />
+        <div class="benefit-title text-sm semi-bold">
+          Gain full transparency into your project
+        </div>
+        <div class="benefit-description text-xs">
+          No hiding behind technical language, no surprise delays at the end of
+          projects, no ambiguous expectation setting. I make sure everyone is on
+          the same page, working towards the success we defined together.
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -67,9 +96,11 @@
 
       img {
         height: 200px;
+        width: 250px;
 
         @include tablet-and-up {
           height: 275px;
+          width: 375px;
         }
       }
 
