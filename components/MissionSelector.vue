@@ -101,7 +101,7 @@ export default {
   }
 
   .mission {
-    width: 100%;
+    width: 80%;
     @include tablet-and-up {
       width: 70%;
     }

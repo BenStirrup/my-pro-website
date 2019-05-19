@@ -6,8 +6,12 @@
           <img src="/logos/logo_black.svg" alt="Logo of this website" />
         </a>
         <mq-layout mq="mobile">
-          <i v-if="showResponsiveMenu" class="icon-times" @click="hideMenu()" />
-          <i v-else class="icon-bars" @click="showMenu()" />
+          <i
+            v-if="showResponsiveMenu"
+            class="icon-times text-lg"
+            @click="hideMenu()"
+          />
+          <i v-else class="icon-bars text-lg" @click="showMenu()" />
         </mq-layout>
         <mq-layout mq="tablet+" class="menu">
           <drop-down class="item text-xs" heading="About me">
@@ -102,8 +106,7 @@ export default {
   top: 0;
   width: 100vw;
   max-width: 1200px;
-  padding: 15px;
-  padding-bottom: 0;
+  padding: 15px 20px 0 20px;
   background-color: white;
   z-index: 1;
   display: flex;
@@ -118,6 +121,10 @@ export default {
     align-items: center;
     padding-bottom: 5px;
     border-bottom: 2px solid black;
+
+    i {
+      padding: 15px 0 15px 15px;
+    }
 
     .logo {
       width: 100%;
