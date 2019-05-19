@@ -50,14 +50,14 @@ export default {
 
 #landing-page {
   margin: auto;
-  padding-top: 110px;
+  padding-top: 150px;
   width: 100vw;
   max-width: 1200px;
   display: flex;
   flex-direction: column;
 
   @include mobile-only {
-    padding-top: 70px;
+    padding-top: 90px;
   }
 }
 </style>
