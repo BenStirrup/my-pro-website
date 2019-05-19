@@ -4,7 +4,7 @@
     <div class="benefits">
       <div class="benefit">
         <img
-          src="/benefits/undraw_business_deal.svg"
+          src="/benefits/business_deal.svg"
           alt="Drawing of two people shaking their hands in agreement"
         />
         <div class="benefit-title text-sm semi-bold">
@@ -18,7 +18,7 @@
       </div>
       <div class="benefit">
         <img
-          src="/benefits/undraw_finish_line.svg"
+          src="/benefits/finish_line.svg"
           alt="Drawing of a woman who just finished a running race"
         />
         <div class="benefit-title text-sm semi-bold">
