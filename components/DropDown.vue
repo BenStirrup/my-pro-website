@@ -1,10 +1,12 @@
 <template>
   <ul
-    id="main"
+    id="dropdown"
     :class="{
-      open: isOpen && isResponsive,
-      close: isOpen === false && isResponsive
+      open: shouldMenuBeOpen,
+      close: !shouldMenuBeOpen
     }"
+    @mouseover="isHovering = true"
+    @mouseout="isHovering = false"
     @click="toggleMenu()"
   >
     <span>{{ heading }}</span>
@@ -13,19 +15,34 @@
         <slot />
       </div>
     </ul>
-    <div id="icon">➜</div>
+    <i id="icon" class="icon-arrow-right" />
   </ul>
 </template>
 
 <script>
 export default {
   props: {
-    heading: { default: '', type: String },
-    isResponsive: { default: false, type: Boolean }
+    heading: { default: '', type: String }
   },
   data() {
     return {
-      isOpen: false
+      toggleOpen: false,
+      isHovering: false
+    }
+  },
+  computed: {
+    isDesktop() {
+      return this.$mq === 'desktop'
+    },
+    isMobile() {
+      return this.$mq === 'mobile'
+    },
+    shouldMenuBeOpen() {
+      if (this.isDesktop) {
+        return this.isHovering
+      } else {
+        return this.toggleOpen
+      }
     }
   },
   mounted() {
@@ -36,31 +53,38 @@ export default {
   },
   methods: {
     closeMenu() {
-      const dropdown = document.getElementById('main')
+      const dropdown = document.getElementById('dropdown')
       if (dropdown) {
-        document.getElementById('main').style.marginBottom = ''
-        this.isOpen = false
+        if (this.isMobile) {
+          dropdown.style.marginBottom = ''
+        }
+        this.toggleOpen = false
+      }
+    },
+    openMenu() {
+      const dropdown = document.getElementById('dropdown')
+      if (dropdown) {
+        if (this.isMobile) {
+          const menuHeight = document.getElementById('drop').clientHeight
+          dropdown.style.marginBottom = `${menuHeight + 10}px`
+        }
+        this.toggleOpen = true
       }
     },
     closeMenuWhenClickingOutside(event) {
-      const dropdown = document.getElementById('main')
+      const dropdown = document.getElementById('dropdown')
       const menu = document.getElementById('drop')
       const isClickInside =
         dropdown.contains(event.target) || menu.contains(event.target)
-      if (!isClickInside && this.isOpen) {
+      if (!isClickInside && this.toggleOpen) {
         this.closeMenu()
       }
     },
     toggleMenu() {
-      if (this.isResponsive) {
-        if (!this.isOpen) {
-          const dropdown = document.getElementById('main')
-          const menuHeight = document.getElementById('drop').clientHeight
-          dropdown.style.marginBottom = `${menuHeight + 10}px`
-          this.isOpen = true
-        } else {
-          this.closeMenu()
-        }
+      if (!this.toggleOpen) {
+        this.openMenu()
+      } else {
+        this.closeMenu()
       }
     }
   }
@@ -68,12 +92,14 @@ export default {
 </script>
 
 <style scoped lang="scss">
+@import '~/assets/style/mixins.scss';
+
 $color: black;
 $secondary-color: white;
 $background-color: gainsboro;
 $secondary-background-color: black;
 
-#main {
+#dropdown {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -84,7 +110,10 @@ $secondary-background-color: black;
   border: 1.5px solid black;
   border-radius: 5px;
   background: $background-color;
-  cursor: default;
+  cursor: pointer;
+  @include desktop-and-up {
+    cursor: default;
+  }
 
   #icon {
     transition: all 0.4s ease;
@@ -131,7 +160,7 @@ $secondary-background-color: black;
   }
 }
 
-#main {
+#dropdown {
   &:hover {
     background-color: $secondary-background-color;
     color: $secondary-color;
