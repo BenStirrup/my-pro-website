@@ -1,40 +1,42 @@
 <template>
-  <div>
+  <div id="default-layout">
+    <navbar />
     <nuxt />
   </div>
 </template>
 
-<style>
-html {
-  font-size: 16px;
-  font-family: 'SF UI', sans-serif;
-  word-spacing: 1px;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  box-sizing: border-box;
-}
+<script>
+import Vue from 'vue'
+import VueMq from 'vue-mq'
 
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-  margin: 0;
-}
+import Navbar from '~/components/Navbar.vue'
 
-::-webkit-scrollbar-track {
-  display: none;
-}
+Vue.use(VueMq, {
+  breakpoints: {
+    mobile: 601,
+    tablet: 1201,
+    desktop: Infinity
+  },
+  defaultBreakpoint: 'mobile'
+})
 
-::-webkit-scrollbar {
-  width: 8px;
+export default {
+  components: {
+    Navbar
+  }
 }
+</script>
 
-::-webkit-scrollbar-thumb {
-  border-radius: 10px;
-  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-  background-color: rgb(63, 58, 58);
+<style lang="scss">
+@import '~/assets/style/mixins.scss';
+
+#default-layout {
+  margin: auto;
+  padding-top: 150px;
+  max-width: 1200px;
+
+  @include mobile-only {
+    padding-top: 90px;
+  }
 }
 </style>
