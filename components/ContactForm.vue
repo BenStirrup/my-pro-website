@@ -4,6 +4,7 @@
     method="POST"
     data-netlify="true"
     netlify-honeypot="bot-field"
+    data-netlify-recaptcha="true"
   >
     <input type="hidden" name="form-name" value="contact" />
     <input name="bot-field" style="position: absolute; visibility: hidden;" />
@@ -18,6 +19,9 @@
     <div class="section long text-xs">
       <label>Your message:</label>
       <textarea name="message" required></textarea>
+    </div>
+    <div class="section short">
+      <div data-netlify-recaptcha="true"></div>
     </div>
     <v-button class="text-xs" type="submit">Go</v-button>
   </form>
