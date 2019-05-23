@@ -2,9 +2,9 @@
   <div class="navbar-container" :class="{ responsive: showResponsiveMenu }">
     <template>
       <div class="topnav">
-        <a href="/" class="logo">
+        <nuxt-link to="/" class="logo">
           <img src="/logos/logo_black.svg" alt="Logo of this website" />
-        </a>
+        </nuxt-link>
         <mq-layout mq="mobile">
           <i
             v-if="showResponsiveMenu"
@@ -15,33 +15,39 @@
         </mq-layout>
         <mq-layout mq="tablet+" class="menu">
           <drop-down class="item text-xs" heading="About me">
-            <v-button class="text-xs" @click="scrollTo('my-job')">
+            <v-button class="text-xs" @click="goTo('/', '#my-job')">
               What I do
             </v-button>
-            <v-button class="text-xs" @click="scrollTo('past-jobs')">
+            <v-button class="text-xs" @click="goTo('/', '#past-jobs')">
               Past work
             </v-button>
-            <v-button class="text-xs" @click="scrollTo('benefits')">
+            <v-button class="text-xs" @click="goTo('/', '#benefits')">
               What makes me different
             </v-button>
           </drop-down>
           <v-button
-            class="item responsive text-xs"
+            class="item text-xs"
             value="Go to Medium blog"
             onclick="window.location.href = 'https://medium.com/@benjamin.stirrup'"
             >Blog
+          </v-button>
+          <v-button class="item text-xs" @click="goTo('/contact')"
+            >Contact
           </v-button>
         </mq-layout>
       </div>
       <div v-if="showResponsiveMenu" class="menu responsive">
         <drop-down class="item responsive text-sm" heading="About me">
-          <v-button class="text-sm" @click="scrollTo('my-job'), hideMenu()">
+          <v-button class="text-sm" @click="goTo('/', '#my-job'), hideMenu()">
             What I do
           </v-button>
-          <v-button class="text-sm" @click="scrollTo('past-jobs'), hideMenu()">
+          <v-button
+            class="text-sm"
+            @click="goTo('/', '#past-jobs'), hideMenu()"
+          >
             Past work
           </v-button>
-          <v-button class="text-sm" @click="scrollTo('benefits'), hideMenu()">
+          <v-button class="text-sm" @click="goTo('/', '#benefits'), hideMenu()">
             What makes me different
           </v-button>
         </drop-down>
@@ -50,6 +56,11 @@
           value="Go to Medium blog"
           onclick="window.location.href = 'https://medium.com/@benjamin.stirrup'"
           >Blog
+        </v-button>
+        <v-button
+          class="item responsive text-sm"
+          @click="goTo('/contact'), hideMenu()"
+          >Contact
         </v-button>
       </div>
     </template>
@@ -84,15 +95,15 @@ export default {
     hideMenu() {
       this.showResponsiveMenu = false
     },
-    scrollTo(id) {
-      const element = document.getElementById(id)
-      const scrollOptions = {
-        block: 'center',
-        inline: 'center',
-        behavior: 'smooth'
+    goTo(path, hash) {
+      const currentPath = this.$route.path
+      const currentHash = this.$route.hash
+      if (path === currentPath && hash === currentHash) {
+        const element = document.querySelector(hash)
+        window.scrollTo(0, element.offsetTop - 110)
+      } else {
+        this.$router.push({ path, hash })
       }
-      element.scrollIntoView(scrollOptions)
-      history.pushState(null, null, '#' + id)
     }
   }
 }
@@ -150,7 +161,7 @@ export default {
     display: flex;
     justify-content: center;
     margin: 0 5px;
-    width: 200px;
+    width: 175px;
     &.responsive {
       margin: 15px;
     }

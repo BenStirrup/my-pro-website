@@ -113,5 +113,41 @@ export default {
         })
       }
     }
+  },
+  router: {
+    scrollBehavior: async (to, from, savedPosition) => {
+      if (savedPosition) {
+        return savedPosition
+      }
+
+      const findElement = (hash, x) => {
+        return (
+          document.querySelector(hash) ||
+          new Promise((resolve, reject) => {
+            if (x > 50) {
+              return resolve()
+            }
+            setTimeout(() => {
+              resolve(findElement(hash, ++x || 1))
+            }, 100)
+          })
+        )
+      }
+
+      if (to.hash) {
+        const element = await findElement(to.hash)
+        const yPosition = element.offsetTop - 110
+        if ('scrollBehavior' in document.documentElement.style) {
+          return window.scrollTo({
+            top: yPosition,
+            behavior: 'smooth'
+          })
+        } else {
+          return window.scrollTo(0, yPosition)
+        }
+      }
+
+      return { x: 0, y: 0 }
+    }
   }
 }

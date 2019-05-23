@@ -1,7 +1,10 @@
 <template>
   <div id="default-layout">
-    <navbar />
-    <nuxt />
+    <div id="default-layout-content">
+      <navbar />
+      <nuxt />
+    </div>
+    <v-footer />
   </div>
 </template>
 
@@ -10,6 +13,7 @@ import Vue from 'vue'
 import VueMq from 'vue-mq'
 
 import Navbar from '~/components/Navbar.vue'
+import Footer from '~/components/Footer.vue'
 
 Vue.use(VueMq, {
   breakpoints: {
@@ -22,7 +26,8 @@ Vue.use(VueMq, {
 
 export default {
   components: {
-    Navbar
+    Navbar,
+    'v-footer': Footer
   }
 }
 </script>
@@ -31,12 +36,19 @@ export default {
 @import '~/assets/style/mixins.scss';
 
 #default-layout {
-  margin: auto;
+  position: relative;
   padding-top: 150px;
-  max-width: 1200px;
+  padding-bottom: 320px;
+  min-height: 100vh;
 
   @include mobile-only {
     padding-top: 90px;
+    padding-bottom: 220px;
+  }
+
+  #default-layout-content {
+    max-width: 1200px;
+    margin: auto;
   }
 }
 </style>
