@@ -1,5 +1,6 @@
 <template>
   <form name="contact" method="POST" data-netlify="true">
+    <input type="hidden" name="form-name" value="contact" />
     <div class="section short text-xs">
       <label>Your name:</label>
       <input type="text" name="name" required />
