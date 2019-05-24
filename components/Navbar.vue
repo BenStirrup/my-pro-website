@@ -28,7 +28,7 @@
           <v-button
             class="item text-xs"
             value="Go to Medium blog"
-            onclick="window.location.href = 'https://medium.com/@benjamin.stirrup'"
+            @click="goToExternal('medium.com/@benjamin.stirrup')"
             >Blog
           </v-button>
           <v-button class="item text-xs" @click="goTo('/contact')"
@@ -54,7 +54,7 @@
         <v-button
           class="item responsive text-sm"
           value="Go to Medium blog"
-          onclick="window.location.href = 'https://medium.com/@benjamin.stirrup'"
+          @click="goToExternal('medium.com/@benjamin.stirrup')"
           >Blog
         </v-button>
         <v-button
@@ -104,6 +104,9 @@ export default {
       } else {
         this.$router.push({ path, hash })
       }
+    },
+    goToExternal(path) {
+      window.open('https://' + path, '_blank')
     }
   }
 }
