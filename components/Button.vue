@@ -6,6 +6,7 @@
 
 <style scoped lang="scss">
 button {
+  font-size: inherit;
   position: relative;
   overflow: hidden;
   text-transform: normal;

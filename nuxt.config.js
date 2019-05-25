@@ -134,20 +134,21 @@ export default {
         )
       }
 
+      let top = 0
+      let behavior = 'auto'
+      let timeout = 100
       if (to.hash) {
         const element = await findElement(to.hash)
-        const yPosition = element.offsetTop - 110
-        if ('scrollBehavior' in document.documentElement.style) {
-          return window.scrollTo({
-            top: yPosition,
-            behavior: 'smooth'
-          })
-        } else {
-          return window.scrollTo(0, yPosition)
-        }
+        top = element.offsetTop - 110
+        behavior = 'smooth'
+      }
+      if (to.path !== from.path) {
+        timeout = 400 // Dependent on page transition duration
       }
 
-      return { x: 0, y: 0 }
+      setTimeout(() => {
+        return window.scrollTo({ top, behavior })
+      }, timeout)
     }
   }
 }

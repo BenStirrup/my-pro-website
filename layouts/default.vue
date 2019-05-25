@@ -43,7 +43,7 @@ export default {
 
   @include mobile-only {
     padding-top: 90px;
-    padding-bottom: 220px;
+    padding-bottom: 350px;
   }
 
   #default-layout-content {

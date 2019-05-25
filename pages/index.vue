@@ -7,8 +7,8 @@
     <past-jobs />
     <projects />
     <divider />
-    <a id="benefits" name="benefits" />
-    <benefits />
+    <a id="assets" name="assets" />
+    <assets />
   </div>
 </template>
 
@@ -16,7 +16,7 @@
 import Job from '~/components/Job.vue'
 import PastJobs from '~/components/PastJobs.vue'
 import Projects from '~/components/Projects.vue'
-import Benefits from '~/components/Benefits.vue'
+import Assets from '~/components/Assets.vue'
 import Divider from '~/components/Divider.vue'
 
 export default {
@@ -25,7 +25,7 @@ export default {
     PastJobs,
     Projects,
     Divider,
-    Benefits
+    Assets
   }
 }
 </script>

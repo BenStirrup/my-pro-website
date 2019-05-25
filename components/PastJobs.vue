@@ -1,7 +1,7 @@
 <template>
   <div class="past-jobs-container">
-    <div class="heading text-lg semi-bold">Past work</div>
-    <div class="paragraph text-sm">I worked with these companies</div>
+    <div class="heading text-xxl semi-bold">Past work</div>
+    <div class="paragraph text-lg">I worked with these companies</div>
     <div class="logos">
       <div class="euler-hermes">
         <img

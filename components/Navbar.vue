@@ -13,27 +13,25 @@
           />
           <i v-else class="icon-bars text-lg" @click="showMenu()" />
         </mq-layout>
-        <mq-layout mq="tablet+" class="menu">
-          <drop-down class="item text-xs" heading="About me">
-            <v-button class="text-xs" @click="goTo('/', '#my-job')">
+        <mq-layout mq="tablet+" class="menu text-sm">
+          <drop-down class="item" heading="About me">
+            <v-button @click="goTo('/', '#my-job')">
               What I do
             </v-button>
-            <v-button class="text-xs" @click="goTo('/', '#past-jobs')">
+            <v-button @click="goTo('/', '#past-jobs')">
               Past work
             </v-button>
-            <v-button class="text-xs" @click="goTo('/', '#benefits')">
-              What makes me different
+            <v-button @click="goTo('/', '#assets')">
+              My assets
             </v-button>
           </drop-down>
           <v-button
-            class="item text-xs"
+            class="item"
             value="Go to Medium blog"
             @click="goToExternal('medium.com/@benjamin.stirrup')"
             >Blog
           </v-button>
-          <v-button class="item text-xs" @click="goTo('/contact')"
-            >Contact
-          </v-button>
+          <v-button class="item" @click="goTo('/contact')">Contact </v-button>
         </mq-layout>
       </div>
       <div v-if="showResponsiveMenu" class="menu responsive">
@@ -47,8 +45,8 @@
           >
             Past work
           </v-button>
-          <v-button class="text-sm" @click="goTo('/', '#benefits'), hideMenu()">
-            What makes me different
+          <v-button class="text-sm" @click="goTo('/', '#assets'), hideMenu()">
+            My assets
           </v-button>
         </drop-down>
         <v-button
@@ -70,9 +68,11 @@
 <script>
 import Button from '~/components/Button.vue'
 import DropDown from '~/components/DropDown.vue'
+import LinkMixin from '~/mixins/link.vue'
 
 export default {
   components: { 'v-button': Button, DropDown },
+  mixins: [LinkMixin],
   data() {
     return { showResponsiveMenu: false }
   },
@@ -94,19 +94,6 @@ export default {
     },
     hideMenu() {
       this.showResponsiveMenu = false
-    },
-    goTo(path, hash) {
-      const currentPath = this.$route.path
-      const currentHash = this.$route.hash
-      if (path === currentPath && hash === currentHash) {
-        const element = document.querySelector(hash)
-        window.scrollTo(0, element.offsetTop - 110)
-      } else {
-        this.$router.push({ path, hash })
-      }
-    },
-    goToExternal(path) {
-      window.open('https://' + path, '_blank')
     }
   }
 }
@@ -164,7 +151,7 @@ export default {
     display: flex;
     justify-content: center;
     margin: 0 5px;
-    width: 175px;
+    width: 150px;
     &.responsive {
       margin: 15px;
     }

@@ -80,40 +80,40 @@
 }
 
 .text-xxxl {
-  @include fluid-type(font-size, 20em, 75em, 2em, 2.2em);
+  @include fluid-type(font-size, 20rem, 75rem, 2.4rem, 2.8rem);
 }
 
 h1,
 .text-xxl {
-  @include fluid-type(font-size, 20em, 75em, 1.8em, 2em);
+  @include fluid-type(font-size, 20rem, 75rem, 2rem, 2.4rem);
 }
 
 h2,
 .text-xl {
-  @include fluid-type(font-size, 20em, 75em, 1.6em, 1.8em);
+  @include fluid-type(font-size, 20rem, 75rem, 1.6rem, 2rem);
 }
 
 h3,
 .text-lg {
-  @include fluid-type(font-size, 20em, 75em, 1.4em, 1.6em);
+  @include fluid-type(font-size, 20rem, 75rem, 1.4rem, 1.6rem);
 }
 
 body,
 .text-md {
-  @include fluid-type(font-size, 20em, 75em, 1.2em, 1.4em);
+  @include fluid-type(font-size, 20rem, 75rem, 1.2rem, 1.4rem);
 }
 
 p,
 .text-sm {
-  @include fluid-type(font-size, 20em, 75em, 1em, 1.2em);
+  @include fluid-type(font-size, 20rem, 75rem, 1rem, 1.2rem);
 }
 
 .text-xs {
-  @include fluid-type(font-size, 20em, 75em, 0.8em, 1em);
+  @include fluid-type(font-size, 20rem, 75rem, 0.8rem, 1rem);
 }
 
 .text-xxs {
-  @include fluid-type(font-size, 20em, 75em, 0.6em, 0.8em);
+  @include fluid-type(font-size, 20rem, 75rem, 0.6rem, 0.8rem);
 }
 
 .bold {
@@ -140,6 +140,14 @@ p,
   background-color: rgb(63, 58, 58);
 }
 
+//// PAGE TRANSITION ////
+.page-enter-active, .page-leave-active {
+  transition: opacity 0.5s;
+}
+.page-enter, .page-leave-to {
+  opacity: 0;
+}
+
 //// GENERAL ////
 html {
   font-size: 16px;
@@ -155,6 +163,22 @@ html {
 a {
   cursor: pointer;
   text-decoration: none;
+  color: white;
+  &:after {
+    content: '';
+    transition: all 0.3s ease-in;
+    display: block; /* Put the pseudo element on its own line */
+    margin: 0 auto; /* Center the border */
+    width: 0%; /* Width of border */
+    padding-top: 5px; /* Create some space between the element and the border */
+    border-bottom: 1px solid white; /* Creates the border */
+  }
+  &:hover {
+    &:after {
+      transition: all 0.3s ease-out;
+      width: 100%;
+    }
+  }
 }
 
 *,

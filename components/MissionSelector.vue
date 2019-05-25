@@ -1,20 +1,20 @@
 <template>
-  <div class="mission-selector-container">
-    <div class="text-sm">
+  <div class="mission-selector-container text-lg">
+    <div>
       You are
     </div>
     <div class="selector">
       <v-button
         v-for="option in options"
         :key="option.id"
-        class="option text-xs"
+        class="option"
         :class="{ selected: selectedOption.id === option.id }"
         @click="select(option.id)"
       >
         {{ option.buttonText }}
       </v-button>
     </div>
-    <div class="mission text-sm">
+    <div class="mission">
       {{ selectedOption.mission }}
     </div>
   </div>

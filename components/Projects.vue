@@ -1,10 +1,10 @@
 <template>
   <div class="projects-container">
-    <div class="subtitle text-sm">on the following projects</div>
+    <div class="subtitle text-lg">on the following projects</div>
     <div class="projects">
       <div class="project">
-        <div class="card">
-          <div class="card-title text-xs semi-bold">
+        <div class="card text-sm">
+          <div class="card-title semi-bold">
             Roboadvisor for professional investors
           </div>
           <img
@@ -12,15 +12,15 @@
             src="/projects/investor_tools.svg"
             alt="Drawing of a smart phone with a dollar and a piechart"
           />
-          <div class="card-description text-xs">
+          <div class="card-description">
             Built a B2B platform advising professional investors on optimal
             portfolio allocations according to performances and own preferences
           </div>
         </div>
       </div>
       <div class="project">
-        <div class="card">
-          <div class="card-title text-xs semi-bold">
+        <div class="card text-sm">
+          <div class="card-title semi-bold">
             Travel agents credit insurance platform
           </div>
           <img
@@ -28,7 +28,7 @@
             src="/projects/plane.svg"
             alt="Drawing of a flying plane"
           />
-          <div class="card-description text-xs">
+          <div class="card-description">
             Worked on a complex backend architecture with multiple interfaced
             APIs to reduce the lead time of demands from 2 weeks to 5 minutes
           </div>

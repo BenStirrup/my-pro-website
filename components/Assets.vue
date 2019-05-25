@@ -1,59 +1,59 @@
 <template>
-  <div class="benefits-container">
-    <div class="heading text-lg semi-bold">What makes me different</div>
-    <div class="benefits">
-      <div class="benefit">
+  <div class="assets-container">
+    <div class="heading text-xxl semi-bold">What makes me different</div>
+    <div class="assets">
+      <div class="asset">
         <img
-          src="/benefits/business_deal.svg"
+          src="/assets/business_deal.svg"
           alt="Drawing of two people shaking their hands in agreement"
         />
-        <div class="benefit-title text-sm semi-bold">
+        <div class="asset-title text-lg semi-bold">
           A team member who challenges your business
         </div>
-        <div class="benefit-description text-xs">
+        <div class="asset-description text-md">
           I will challenge with you the definition and the prioritization of
           high valued-added features for your business and which your users
           need.
         </div>
       </div>
-      <div class="benefit">
+      <div class="asset">
         <img
-          src="/benefits/finish_line.svg"
+          src="/assets/finish_line.svg"
           alt="Drawing of a woman who just finished a running race"
         />
-        <div class="benefit-title text-sm semi-bold">
+        <div class="asset-title text-lg semi-bold">
           Build at lightspeed with Agile and DevOps mindsets
         </div>
-        <div class="benefit-description text-xs">
+        <div class="asset-description text-md">
           To build a product in weeks, not months, I ship code as early and as
           regularly as possible, getting user feedback early on and constantly
           measuring the impact of what I am building.
         </div>
       </div>
-      <div class="benefit">
+      <div class="asset">
         <img
-          src="/benefits/programming.svg"
+          src="/assets/programming.svg"
           alt="Drawing of a man in front of multiple computer monitors"
         />
-        <div class="benefit-title text-sm semi-bold">
+        <div class="asset-title text-lg semi-bold">
           Technical expertise at your service
         </div>
-        <div class="benefit-description text-xs">
+        <div class="asset-description text-md">
           I am adept at developing with frontend JavaScript frameworks
           (React.js, Vue.js) as well as backend frameworks (Django, Spring
           Boot). In addition to my applicative knowledge, I am also experienced
           with analytics, infrastructure and CI/CD.
         </div>
       </div>
-      <div class="benefit">
+      <div class="asset">
         <img
-          src="/benefits/scrum_board.svg"
+          src="/assets/scrum_board.svg"
           alt="Drawing of a woman and a man in front of a Scrum board"
         />
-        <div class="benefit-title text-sm semi-bold">
+        <div class="asset-title text-lg semi-bold">
           Gain full transparency into your project
         </div>
-        <div class="benefit-description text-xs">
+        <div class="asset-description text-md">
           No hiding behind technical language, no surprise delays at the end of
           projects, no ambiguous expectation setting. I make sure everyone is on
           the same page, working towards the success we defined together.
@@ -66,7 +66,7 @@
 <style scoped lang="scss">
 @import '~/assets/style/mixins.scss';
 
-.benefits-container {
+.assets-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -76,11 +76,11 @@
     text-align: center;
   }
 
-  .benefits {
+  .assets {
     display: flex;
     flex-wrap: wrap;
 
-    .benefit {
+    .asset {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -91,7 +91,7 @@
 
       @include desktop-and-up {
         width: 50%;
-        height: 550px; // Absolute value so that benefit titles are aligned in the flex line
+        height: 550px; // Absolute value so that asset titles are aligned in the flex line
       }
 
       img {
@@ -104,7 +104,7 @@
         }
       }
 
-      .benefit-title {
+      .asset-title {
         text-align: center;
         width: 80%;
         @include tablet-only {
@@ -112,7 +112,7 @@
         }
       }
 
-      .benefit-description {
+      .asset-description {
         text-align: left;
         padding-left: 20px;
         width: 80%;

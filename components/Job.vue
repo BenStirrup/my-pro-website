@@ -1,14 +1,16 @@
 <template>
   <div class="job-container">
-    <div class="text-lg semi-bold">Hello, I'm Benjamin Stirrup.</div>
-    <div class="text-md">I am a <em>lead web engineer*</em></div>
-    <div class="definition text-xs">
+    <div class="heading text-xxl semi-bold">Hello, I'm Benjamin Stirrup.</div>
+    <div class="subheading text-lg">
+      I am a professional <em>lead web engineer*</em>
+    </div>
+    <div class="definition text-sm">
       A company's ability to innovate fast has become a matter of survival. To
       address this challenge, I conceive and develop
       <strong>tailor-made web applications</strong> in
       <strong>record time</strong>.
     </div>
-    <div class="definition text-xxs">
+    <div class="definition text-xs">
       *An engineer who has the technical knowhow to lead the
       <strong>UI development</strong> across all device types as well as the
       design of complex<strong> back-end architectures</strong>.
@@ -38,6 +40,14 @@ export default {
 
   > div {
     padding: 10px;
+  }
+
+  .subheading {
+    max-width: 90%;
+
+    @include tablet-and-up {
+      max-width: 70%;
+    }
   }
 
   .definition {
