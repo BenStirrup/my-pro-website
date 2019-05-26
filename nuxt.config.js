@@ -5,8 +5,8 @@ export default {
 
   /* PWA manifest */
   manifest: {
-    name: 'Benjamin Stirrup Web Engineering',
-    short_name: 'B.S. Web Engineering',
+    name: 'Benjamin Stirrup | Web development at lightspeed',
+    short_name: 'Web development at lightspeed',
     theme_color: '#ffffff',
     background_color: '#ffffff',
     display: 'standalone',
@@ -33,11 +33,14 @@ export default {
 
   /* Headers of the page */
   head: {
-    title: 'Web development by Benjamin Stirrup',
+    title: 'Benjamin Stirrup | Web development at lightspeed',
     meta: [
       { author: 'Benjamin Stirrup' },
       { charset: 'utf-8' },
-      { description: 'Professional web development by Benjamin Stirrup' },
+      {
+        description:
+          'Performance. Scalability. Design. Just for you, I conceive and develop tailor-made web applications in record time.'
+      },
       { hid: 'description', name: 'description', content: pkg.description },
       { lang: 'en' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },

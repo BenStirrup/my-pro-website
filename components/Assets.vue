@@ -25,9 +25,9 @@
           Build at lightspeed with Agile and DevOps mindsets
         </div>
         <div class="asset-description text-md">
-          To build a product in weeks, not months, I ship code as early and as
-          regularly as possible, getting user feedback early on and constantly
-          measuring the impact of what I am building.
+          To build a product in weeks, not months, I ship value added features
+          every day, getting user feedback early on and constantly measuring the
+          impact of what I am building.
         </div>
       </div>
       <div class="asset">

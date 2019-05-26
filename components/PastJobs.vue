@@ -1,7 +1,6 @@
 <template>
   <div class="past-jobs-container">
-    <div class="heading text-xxl semi-bold">Past work</div>
-    <div class="paragraph text-lg">I worked with these companies</div>
+    <div class="text-xxl semi-bold">These companies trusted me</div>
     <div class="logos">
       <div class="euler-hermes">
         <img
@@ -29,14 +28,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-
-  .heading {
-    padding-bottom: 50px;
-  }
-
-  .paragraph {
-    text-align: center;
-  }
 
   .logos {
     padding: 30px 0;

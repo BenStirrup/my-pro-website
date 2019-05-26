@@ -19,7 +19,7 @@
               What I do
             </v-button>
             <v-button @click="goTo('/', '#past-jobs')">
-              Past work
+              They trust me
             </v-button>
             <v-button @click="goTo('/', '#assets')">
               My assets
@@ -40,7 +40,7 @@
             What I do
           </v-button>
           <v-button @click="goTo('/', '#past-jobs'), hideMenu()">
-            Past work
+            They trust me
           </v-button>
           <v-button @click="goTo('/', '#assets'), hideMenu()">
             My assets

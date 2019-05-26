@@ -13,13 +13,13 @@
         </div>
         <div class="navigation-content text-xs">
           <div class="navigation-column">
-            <a @click="goTo('/', '#my-job')">What I do </a>
-            <a @click="goTo('/', '#past-jobs')">Past work </a>
-            <a @click="goTo('/', '#assets')">My assets </a>
+            <a @click="goTo('/', '#my-job')">What I do</a>
+            <a @click="goTo('/', '#past-jobs')">They trust me</a>
+            <a @click="goTo('/', '#assets')">My assets</a>
           </div>
           <div class="navigation-column">
-            <a @click="goToExternal('medium.com/@benjamin.stirrup')">Blog </a>
-            <a @click="goTo('/contact')">Contact </a>
+            <a @click="goToExternal('medium.com/@benjamin.stirrup')">Blog</a>
+            <a @click="goTo('/contact')">Contact</a>
           </div>
         </div>
       </div>
