@@ -34,23 +34,20 @@
           <v-button class="item" @click="goTo('/contact')">Contact </v-button>
         </mq-layout>
       </div>
-      <div v-if="showResponsiveMenu" class="menu responsive">
-        <drop-down class="item responsive text-sm" heading="About me">
-          <v-button class="text-sm" @click="goTo('/', '#my-job'), hideMenu()">
+      <div v-if="showResponsiveMenu" class="menu responsive text-sm">
+        <drop-down class="item responsive" heading="About me">
+          <v-button class="" @click="goTo('/', '#my-job'), hideMenu()">
             What I do
           </v-button>
-          <v-button
-            class="text-sm"
-            @click="goTo('/', '#past-jobs'), hideMenu()"
-          >
+          <v-button @click="goTo('/', '#past-jobs'), hideMenu()">
             Past work
           </v-button>
-          <v-button class="text-sm" @click="goTo('/', '#assets'), hideMenu()">
+          <v-button @click="goTo('/', '#assets'), hideMenu()">
             My assets
           </v-button>
         </drop-down>
         <v-button
-          class="item responsive text-sm"
+          class="item responsive"
           value="Go to Medium blog"
           @click="goToExternal('medium.com/@benjamin.stirrup')"
           >Blog
@@ -108,7 +105,11 @@ export default {
   width: 100vw;
   max-width: 1200px;
   padding: 15px 20px 0 20px;
-  background-color: white;
+  background: url('/background_trianglify.svg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   z-index: 1;
   display: flex;
   flex-direction: column;

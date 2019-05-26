@@ -37,13 +37,13 @@ export default {
 
 #default-layout {
   position: relative;
+  min-height: 100vh;
   padding-top: 150px;
   padding-bottom: 320px;
-  min-height: 100vh;
 
   @include mobile-only {
-    padding-top: 90px;
-    padding-bottom: 350px;
+    padding-top: 100px;
+    padding-bottom: 400px;
   }
 
   #default-layout-content {

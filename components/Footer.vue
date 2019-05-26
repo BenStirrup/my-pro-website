@@ -49,7 +49,7 @@ export default {
   background-color: black;
 
   @include tablet-and-up {
-    height: 300px;
+    height: 250px;
   }
 
   .footer-content {

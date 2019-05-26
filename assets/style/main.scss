@@ -124,6 +124,31 @@ p,
   font-weight: 600;
 }
 
+//// GENERAL ////
+html {
+  font-size: 16px;
+  font-family: 'SF UI', sans-serif;
+  word-spacing: 1px;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+
+  background: url('/background_trianglify.svg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
 //// SCROLLBAR ////
 ::-webkit-scrollbar-track {
   display: none;
@@ -141,25 +166,54 @@ p,
 }
 
 //// PAGE TRANSITION ////
-.page-enter-active, .page-leave-active {
+.page-enter-active,
+.page-leave-active {
   transition: opacity 0.5s;
 }
-.page-enter, .page-leave-to {
+.page-enter,
+.page-leave-to {
   opacity: 0;
 }
 
-//// GENERAL ////
-html {
-  font-size: 16px;
-  font-family: 'SF UI', sans-serif;
-  word-spacing: 1px;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  box-sizing: border-box;
+//// TOOLTIP ////
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1.5px dotted black;
+  cursor: pointer;
 }
 
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 250px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 10px;
+  position: absolute;
+  z-index: 1;
+  top: 150%;
+  left: 50%;
+  margin-left: -60%;
+}
+
+.tooltip .tooltiptext::after {
+  content: '';
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent black transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+//// LINKS ////
 a {
   cursor: pointer;
   text-decoration: none;
@@ -181,9 +235,6 @@ a {
   }
 }
 
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-  margin: 0;
+a[name] {
+  visibility: hidden; /* Hide anchors */
 }

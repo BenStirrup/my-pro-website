@@ -1,19 +1,29 @@
 <template>
   <div class="job-container">
-    <div class="heading text-xxl semi-bold">Hello, I'm Benjamin Stirrup.</div>
+    <div class="text-xxl semi-bold">
+      Performance. Scalability. Design.
+    </div>
+    <div class="text-xxl semi-bold">
+      Just for you.
+    </div>
     <div class="subheading text-lg">
-      I am a professional <em>lead web engineer*</em>
+      Hello, I'm Benjamin Stirrup.
+      <br />I am a professional
+      <div class="tooltip">
+        <em>lead web engineer</em>
+        <span class="tooltiptext text-xs"
+          >An engineer who has the technical knowhow to lead the
+          <strong>UI development</strong> across all device types as well as the
+          design of complex<strong> back-end architectures</strong>.</span
+        >
+      </div>
+      based in France, available for work in Europe.
     </div>
     <div class="definition text-sm">
       A company's ability to innovate fast has become a matter of survival. To
       address this challenge, I conceive and develop
       <strong>tailor-made web applications</strong> in
       <strong>record time</strong>.
-    </div>
-    <div class="definition text-xs">
-      *An engineer who has the technical knowhow to lead the
-      <strong>UI development</strong> across all device types as well as the
-      design of complex<strong> back-end architectures</strong>.
     </div>
     <mission-selector />
   </div>
@@ -43,10 +53,11 @@ export default {
   }
 
   .subheading {
+    padding: 20px;
     max-width: 90%;
 
     @include tablet-and-up {
-      max-width: 70%;
+      max-width: 60%;
     }
   }
 
