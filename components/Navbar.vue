@@ -105,11 +105,9 @@ export default {
   width: 100vw;
   max-width: 1200px;
   padding: 15px 20px 0 20px;
-  background: url('/background_trianglify.svg') no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  background-image: url('/trianglify.svg');
   background-size: cover;
+  background-attachment: fixed;
   z-index: 1;
   display: flex;
   flex-direction: column;
