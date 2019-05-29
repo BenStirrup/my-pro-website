@@ -52,28 +52,28 @@ export default {
         rel: 'preload',
         as: 'font',
         type: 'font/woff',
-        href: '/fonts/SFUIText-Regular.woff',
+        href: '/fonts/SFUIText-Regular-subset.woff',
         crossorigin: true
       },
       {
         rel: 'preload',
         as: 'font',
         type: 'font/woff',
-        href: '/fonts/SFUIText-Semibold.woff',
+        href: '/fonts/SFUIText-Semibold-subset.woff',
         crossorigin: true
       },
       {
         rel: 'preload',
         as: 'font',
         type: 'font/woff',
-        href: '/fonts/SFUIText-Bold.woff',
+        href: '/fonts/SFUIText-Bold-subset.woff',
         crossorigin: true
       },
       {
         rel: 'preload',
         as: 'font',
         type: 'font/woff',
-        href: '/fonts/SFUIText-RegularItalic.woff',
+        href: '/fonts/SFUIText-RegularItalic-subset.woff',
         crossorigin: true
       },
       {
