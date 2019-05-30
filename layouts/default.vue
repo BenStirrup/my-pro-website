@@ -29,6 +29,16 @@ export default {
   components: {
     Navbar,
     'v-footer': Footer
+  },
+  mounted() {
+    window.Calendly.initBadgeWidget({
+      url:
+        'https://calendly.com/benjamin-stirrup-web-development/project-meeting',
+      text: 'Schedule meeting',
+      color: '#00a2ff',
+      textColor: 'white',
+      branding: false
+    })
   }
 }
 </script>

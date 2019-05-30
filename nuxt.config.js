@@ -50,7 +50,17 @@ export default {
         content: 'hKgt97MCCBVV6--asomGkeqn5-hqiiArYbEkl7MVk9U'
       }
     ],
+    script: [
+      {
+        src: 'https://assets.calendly.com/assets/external/widget.js',
+        type: 'text/javascript'
+      }
+    ],
     link: [
+      {
+        rel: 'stylesheet',
+        href: 'https://assets.calendly.com/assets/external/widget.css'
+      },
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       {
         rel: 'preload',

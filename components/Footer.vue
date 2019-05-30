@@ -59,8 +59,10 @@ export default {
     width: 100%;
     max-width: 1200px;
     color: white;
+    padding-bottom: 30px;
     @include tablet-and-up {
       flex-direction: row;
+      padding-bottom: 50px;
     }
 
     .left-pane,
