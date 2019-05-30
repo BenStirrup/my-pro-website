@@ -100,7 +100,16 @@ export default {
   plugins: [],
 
   /* Nuxt.js modules */
-  modules: ['@nuxtjs/pwa'],
+  modules: [
+    '@nuxtjs/pwa',
+    [
+      '@nuxtjs/google-analytics',
+      {
+        id: process.env.GA_TRACKING_ID || '',
+        dev: false
+      }
+    ]
+  ],
 
   /* Build configuration */
   build: {
