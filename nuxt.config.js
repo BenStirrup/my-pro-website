@@ -44,7 +44,11 @@ export default {
       { hid: 'description', name: 'description', content: pkg.description },
       { lang: 'en' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { theme_color: '#ffffff' }
+      { theme_color: '#ffffff' },
+      {
+        name: 'google-site-verification',
+        content: 'hKgt97MCCBVV6--asomGkeqn5-hqiiArYbEkl7MVk9U'
+      }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
