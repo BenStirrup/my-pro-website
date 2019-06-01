@@ -4,8 +4,8 @@
     <div class="projects">
       <div class="project">
         <div class="card text-sm">
-          <div class="card-title semi-bold">
-            Roboadvisor for professional investors
+          <div class="card-title text-md bold">
+            Investment advice platform
           </div>
           <img
             class="card-illustration"
@@ -13,15 +13,18 @@
             alt="Drawing of a smart phone with a dollar and a piechart"
           />
           <div class="card-description">
-            Built a B2B platform advising professional investors on optimal
-            portfolio allocations according to performances and own preferences
+            <u>Product:</u> automated investment advice platform (robo-advisor)
+          </div>
+          <div class="card-description">
+            <u>Impact:</u> bank advisors offer investment choices consistent
+            with the risk profile and the preferences of their clients
           </div>
         </div>
       </div>
       <div class="project">
         <div class="card text-sm">
-          <div class="card-title semi-bold">
-            Travel agents credit insurance platform
+          <div class="card-title text-md bold">
+            Credit insurance platform
           </div>
           <img
             class="card-illustration"
@@ -29,8 +32,13 @@
             alt="Drawing of a flying plane"
           />
           <div class="card-description">
-            Worked on a complex backend architecture with multiple interfaced
-            APIs to reduce the lead time of demands from 2 weeks to 5 minutes
+            <u>Product:</u> credit insurance platform for travel agents with
+            real-time generation of offers
+          </div>
+          <div class="card-description">
+            <u>Impact:</u> travel agents can obtain a trade credit insurance in
+            3 minutes, which is essential for the IATA certification required to
+            work as a travel agent
           </div>
         </div>
       </div>
@@ -71,8 +79,6 @@
       }
 
       .card {
-        -webkit-box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.75);
-        -moz-box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.75);
         box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.75);
         border: 1px solid black;
         background: white;
@@ -81,10 +87,17 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: space-around;
+
+        min-height: 300px;
+        @include tablet-only {
+          min-height: 400px;
+        }
+        @include desktop-and-up {
+          min-height: 340px;
+        }
 
         > div {
-          padding: 20px;
+          padding: 15px;
         }
 
         .card-title {
@@ -93,12 +106,17 @@
         }
 
         .card-illustration {
-          max-height: 80px;
+          height: 80px;
         }
 
         .card-description {
           text-align: left;
           padding-left: 40px;
+          u {
+            text-decoration: none;
+            font-weight: bold;
+            border-bottom: solid 1.5px black;
+          }
         }
       }
     }
