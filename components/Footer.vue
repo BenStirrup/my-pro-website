@@ -49,7 +49,7 @@ export default {
   background-color: black;
 
   @include tablet-and-up {
-    height: 250px;
+    height: 300px;
   }
 
   .footer-content {
@@ -62,7 +62,7 @@ export default {
     padding-bottom: 30px;
     @include tablet-and-up {
       flex-direction: row;
-      padding-bottom: 50px;
+      padding-bottom: 0px;
     }
 
     .left-pane,

@@ -3,7 +3,7 @@
     <div class="subtitle text-lg">on the following projects</div>
     <div class="projects">
       <div class="project">
-        <div class="card text-sm">
+        <card class="card text-sm">
           <div class="card-title text-md bold">
             Investment advice platform
           </div>
@@ -19,10 +19,10 @@
             <u>Impact:</u> bank advisors offer investment choices consistent
             with the risk profile and the preferences of their clients
           </div>
-        </div>
+        </card>
       </div>
       <div class="project">
-        <div class="card text-sm">
+        <card class="card text-sm">
           <div class="card-title text-md bold">
             Credit insurance platform
           </div>
@@ -40,11 +40,19 @@
             3 minutes, which is essential for the IATA certification required to
             work as a travel agent
           </div>
-        </div>
+        </card>
       </div>
     </div>
   </div>
 </template>
+
+<script>
+import Card from '~/components/Card.vue'
+
+export default {
+  components: { card: Card }
+}
+</script>
 
 <style scoped lang="scss">
 @import '~/assets/style/mixins.scss';
@@ -79,15 +87,6 @@
       }
 
       .card {
-        box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.75);
-        border: 1px solid black;
-        background: white;
-        border-radius: 15px;
-
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-
         min-height: 300px;
         @include tablet-only {
           min-height: 400px;

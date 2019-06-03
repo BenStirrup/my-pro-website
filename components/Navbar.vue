@@ -25,18 +25,34 @@
               My assets
             </v-button>
           </drop-down>
+          <drop-down class="item" heading="Technology">
+            <v-button @click="goTo('/technology', '#react'), hideMenu()">
+              React.js
+            </v-button>
+            <v-button @click="goTo('/technology', '#vue'), hideMenu()">
+              Vue.js
+            </v-button>
+            <v-button @click="goTo('/technology', '#django'), hideMenu()">
+              Django
+            </v-button>
+            <v-button @click="goTo('/technology', '#serverless'), hideMenu()">
+              Serverless
+            </v-button>
+          </drop-down>
           <v-button
-            class="item"
+            class="item small"
             value="Go to Medium blog"
             @click="goToExternal('medium.com/@benjamin.stirrup')"
             >Blog
           </v-button>
-          <v-button class="item" @click="goTo('/contact')">Contact </v-button>
+          <v-button class="item small" @click="goTo('/contact')"
+            >Contact
+          </v-button>
         </mq-layout>
       </div>
       <div v-if="showResponsiveMenu" class="menu responsive text-sm">
         <drop-down class="item responsive" heading="About me">
-          <v-button class="" @click="goTo('/', '#my-job'), hideMenu()">
+          <v-button @click="goTo('/', '#my-job'), hideMenu()">
             What I do
           </v-button>
           <v-button @click="goTo('/', '#past-jobs'), hideMenu()">
@@ -44,6 +60,20 @@
           </v-button>
           <v-button @click="goTo('/', '#assets'), hideMenu()">
             My assets
+          </v-button>
+        </drop-down>
+        <drop-down class="item responsive" heading="Technology">
+          <v-button @click="goTo('/technology', '#react'), hideMenu()">
+            React.js
+          </v-button>
+          <v-button @click="goTo('/technology', '#vue'), hideMenu()">
+            Vue.js
+          </v-button>
+          <v-button @click="goTo('/technology', '#django'), hideMenu()">
+            Django
+          </v-button>
+          <v-button @click="goTo('/technology', '#serverless'), hideMenu()">
+            Serverless
           </v-button>
         </drop-down>
         <v-button
@@ -150,9 +180,12 @@ export default {
     display: flex;
     justify-content: center;
     margin: 0 5px;
-    width: 150px;
+    width: 160px;
     &.responsive {
       margin: 15px;
+    }
+    &.small {
+      width: 100px;
     }
   }
 }

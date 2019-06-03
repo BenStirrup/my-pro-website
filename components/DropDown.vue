@@ -135,6 +135,7 @@ $secondary-background-color: black;
         text-align: center;
         border: 1.5px solid black;
         border-radius: 0px;
+        border-bottom: none;
         width: 100%;
         background-color: $background-color;
         color: $color;
@@ -146,14 +147,11 @@ $secondary-background-color: black;
         &:first-child {
           border-top-left-radius: 5px;
           border-top-right-radius: 5px;
-          border-top: 1.5px solid black;
-          border-bottom: none;
         }
         &:last-child {
           border-bottom-left-radius: 5px;
           border-bottom-right-radius: 5px;
           border-bottom: 1.5px solid black;
-          border-top: none;
         }
       }
     }

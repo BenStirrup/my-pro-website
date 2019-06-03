@@ -62,7 +62,7 @@ export default {
   position: relative;
   min-height: 100vh;
   padding-top: 150px;
-  padding-bottom: 320px;
+  padding-bottom: 350px;
 
   @include mobile-only {
     padding-top: 100px;
