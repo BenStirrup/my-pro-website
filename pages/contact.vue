@@ -1,13 +1,16 @@
 <template>
   <div id="contact-page" class="text-sm">
+    <p class="heading text-xl semi-bold">
+      Two options to contact me
+    </p>
     <p>
-      You can directly schedule a project meeting with your chosen time and
+      1. You can directly schedule a project meeting with your chosen time and
       location by clicking on the button below:
     </p>
     <v-button @click="openCalendlyPopup()">Choose your meeting time</v-button>
     <p>
-      Or, if you prefer sending me a message, you can use the following contact
-      form. I respond within 2 hours.
+      2. Or, if you prefer sending me a message, you can use the following
+      contact form. I respond within 2 hours.
     </p>
     <contact-form />
   </div>
@@ -41,6 +44,10 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  .heading {
+    text-align: center;
+  }
 
   > * {
     margin: 10px 0;
