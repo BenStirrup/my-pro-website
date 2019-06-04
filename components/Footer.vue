@@ -36,8 +36,6 @@ export default {
 </script>
 
 <style scoped lang="scss">
-@import '~/assets/style/mixins.scss';
-
 .footer-container {
   position: absolute;
   bottom: 0;

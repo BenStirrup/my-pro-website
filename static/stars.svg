@@ -1,0 +1,1114 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background:#26262b;" viewBox="0 0 1900 980">
+<g transform=""><g transform="translate(968.133 636.969)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;2635.905674447492 15.414743705981095" keyTimes="0;1" dur="20s" begin="-10.805311780155122s"></animateTransform>
+
+<g transform="rotate(159.5603195725966)">
+
+<ellipse cx="0" cy="0" rx="0.196749" ry="0.0232946" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-10.805311780155122s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-10.805311780155122s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-10.805311780155122s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(826.741 531.653)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;-257.38966923785824 -349.80635440203105" keyTimes="0;1" dur="20s" begin="-19.43347745994972s"></animateTransform>
+
+<g transform="rotate(39.11305324627902)">
+
+<ellipse cx="0" cy="0" rx="3.35724" ry="0.525422" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-19.43347745994972s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-19.43347745994972s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-19.43347745994972s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(1042.37 274.726)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;1245.4253490330884 -625.7772965659988" keyTimes="0;1" dur="20s" begin="-1.493805968197851s"></animateTransform>
+
+<g transform="rotate(102.7073279392852)">
+
+<ellipse cx="0" cy="0" rx="9.52912" ry="1.38517" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-1.493805968197851s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-1.493805968197851s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-1.493805968197851s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(959.995 639.998)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;-754.5321439939589 63.89062488621971" keyTimes="0;1" dur="20s" begin="-3.1049495256046287s"></animateTransform>
+
+<g transform="rotate(18.57314648539237)">
+
+<ellipse cx="0" cy="0" rx="0.000719409" ry="1.3505e-05" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-3.1049495256046287s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-3.1049495256046287s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-3.1049495256046287s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(1047.15 448.84)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;1518.3298237952827 -584.6845957425987" keyTimes="0;1" dur="20s" begin="-0.3023657283456222s"></animateTransform>
+
+<g transform="rotate(114.50809193003577)">
+
+<ellipse cx="0" cy="0" rx="4.81554" ry="0.74923" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-0.3023657283456222s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-0.3023657283456222s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-0.3023657283456222s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(910.102 556.384)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;250.2574461581172 -549.3351097269997" keyTimes="0;1" dur="20s" begin="-18.221044826751605s"></animateTransform>
+
+<g transform="rotate(59.17311734207545)">
+
+<ellipse cx="0" cy="0" rx="2.17212" ry="0.337462" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-18.221044826751605s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-18.221044826751605s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-18.221044826751605s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(903.772 638.34)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;-958.1211554032736 583.3873465482415" keyTimes="0;1" dur="20s" begin="-15.65220338213338s"></animateTransform>
+
+<g transform="rotate(1.6905734682632887)">
+
+<ellipse cx="0" cy="0" rx="0.95553" ry="0.140708" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-15.65220338213338s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-15.65220338213338s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-15.65220338213338s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(970.25 642.89)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;2728.388099396087 1138.5327493596894" keyTimes="0;1" dur="20s" begin="-11.227592424662571s"></animateTransform>
+
+<g transform="rotate(15.743868939267328)">
+
+<ellipse cx="0" cy="0" rx="0.228772" ry="0.0278224" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-11.227592424662571s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-11.227592424662571s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-11.227592424662571s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(959.799 639.943)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;-805.179145315587 136.43820419251477" keyTimes="0;1" dur="20s" begin="-5.039273815865019s"></animateTransform>
+
+<g transform="rotate(15.92213300679374)">
+
+<ellipse cx="0" cy="0" rx="0.0100898" ry="0.000546576" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-5.039273815865019s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-5.039273815865019s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-5.039273815865019s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(1034.21 760.821)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;1687.5599944889796 1824.5405024582685" keyTimes="0;1" dur="20s" begin="-19.24611905900568s"></animateTransform>
+
+<g transform="rotate(58.44121943484091)">
+
+<ellipse cx="0" cy="0" rx="3.12623" ry="0.489591" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-19.24611905900568s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-19.24611905900568s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-19.24611905900568s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(977.346 652.363)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;2271.587580673765 1574.7936238603302" keyTimes="0;1" dur="20s" begin="-13.369245196191352s"></animateTransform>
+
+<g transform="rotate(35.47820081566473)">
+
+<ellipse cx="0" cy="0" rx="0.467749" ry="0.0634809" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-13.369245196191352s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-13.369245196191352s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-13.369245196191352s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(753.406 1052.92)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;352.49218175205874 1854.2367059675578" keyTimes="0;1" dur="20s" begin="-1.7188063417400656s"></animateTransform>
+
+<g transform="rotate(116.57975134399075)">
+
+<ellipse cx="0" cy="0" rx="11.4635" ry="1.63233" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-1.7188063417400656s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-1.7188063417400656s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-1.7188063417400656s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(960.292 639.878)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;2588.8454291353664 -37.66349170753995" keyTimes="0;1" dur="20s" begin="-5.467014866945853s"></animateTransform>
+
+<g transform="rotate(157.41077656856632)">
+
+<ellipse cx="0" cy="0" rx="0.0142371" ry="0.000861584" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-5.467014866945853s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-5.467014866945853s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-5.467014866945853s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(941.771 592.488)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;484.2057751567386 -600.0752406573831" keyTimes="0;1" dur="20s" begin="-16.446568766961956s"></animateTransform>
+
+<g transform="rotate(69.00910394831709)">
+
+<ellipse cx="0" cy="0" rx="1.22367" ry="0.183906" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-16.446568766961956s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-16.446568766961956s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-16.446568766961956s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(914.62 646.57)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;-916.2614699168337 911.6557433431943" keyTimes="0;1" dur="20s" begin="-15.087219199877016s"></animateTransform>
+
+<g transform="rotate(171.76164138429175)">
+
+<ellipse cx="0" cy="0" rx="0.801126" ry="0.116095" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-15.087219199877016s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-15.087219199877016s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-15.087219199877016s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(960 640.002)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;988.367066716991 1919.8602891680316" keyTimes="0;1" dur="20s" begin="-2.9811024283224667s"></animateTransform>
+
+<g transform="rotate(88.73029334024217)">
+
+<ellipse cx="0" cy="0" rx="0.000513483" ry="8.29128e-06" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-2.9811024283224667s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-2.9811024283224667s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-2.9811024283224667s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(961.853 641.892)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;2009.6918320048642 1711.7684363958213" keyTimes="0;1" dur="20s" begin="-8.681496015474368s"></animateTransform>
+
+<g transform="rotate(45.59621696440785)">
+
+<ellipse cx="0" cy="0" rx="0.0850648" ry="0.00847524" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-8.681496015474368s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-8.681496015474368s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-8.681496015474368s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(922.277 677.31)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;-113.13692017708286 1701.3988988443182" keyTimes="0;1" dur="20s" begin="-16.190178196736817s"></animateTransform>
+
+<g transform="rotate(135.31507192201724)">
+
+<ellipse cx="0" cy="0" rx="1.12945" ry="0.168729" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-16.190178196736817s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-16.190178196736817s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-16.190178196736817s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(970.362 697.493)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;1189.056371840656 1910.8585336988526" keyTimes="0;1" dur="20s" begin="-16.935932204401286s"></animateTransform>
+
+<g transform="rotate(79.78284583097393)">
+
+<ellipse cx="0" cy="0" rx="1.42771" ry="0.21715" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-16.935932204401286s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-16.935932204401286s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-16.935932204401286s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(979.043 666.305)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;1794.500619305391 1792.7761113221748" keyTimes="0;1" dur="20s" begin="-14.917468293489742s"></animateTransform>
+
+<g transform="rotate(54.09902547615037)">
+
+<ellipse cx="0" cy="0" rx="0.760183" ry="0.109532" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-14.917468293489742s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-14.917468293489742s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-14.917468293489742s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(960.459 640.15)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;2684.235939247361 1203.0908455649133" keyTimes="0;1" dur="20s" begin="-5.885912747378327s"></animateTransform>
+
+<g transform="rotate(18.085698315672325)">
+
+<ellipse cx="0" cy="0" rx="0.0191837" ry="0.00127707" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-5.885912747378327s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-5.885912747378327s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-5.885912747378327s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(1056.66 601.151)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;2604.322225673026 -20.84270044902371" keyTimes="0;1" dur="20s" begin="-17.704189570390923s"></animateTransform>
+
+<g transform="rotate(158.10511755978825)">
+
+<ellipse cx="0" cy="0" rx="1.82857" ry="0.282175" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-17.704189570390923s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-17.704189570390923s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-17.704189570390923s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(926.23 638.16)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;-953.6198290228326 535.737191097315" keyTimes="0;1" dur="20s" begin="-14.176794797952667s"></animateTransform>
+
+<g transform="rotate(3.1186540241916836)">
+
+<ellipse cx="0" cy="0" rx="0.603778" ry="0.0847061" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-14.176794797952667s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-14.176794797952667s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-14.176794797952667s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(957.326 650.123)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;627.034977066896 1900.6055499909835" keyTimes="0;1" dur="20s" begin="-12.03965890939121s"></animateTransform>
+
+<g transform="rotate(104.79569487986333)">
+
+<ellipse cx="0" cy="0" rx="0.302586" ry="0.038547" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-12.03965890939121s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-12.03965890939121s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-12.03965890939121s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(960.014 640.207)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;1047.5501850292806 1918.6685723137239" keyTimes="0;1" dur="20s" begin="-5.364087503464216s"></animateTransform>
+
+<g transform="rotate(86.08308262526617)">
+
+<ellipse cx="0" cy="0" rx="0.0131655" ry="0.000776449" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-5.364087503464216s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-5.364087503464216s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-5.364087503464216s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(745.904 520.067)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;-509.9526936867701 -183.44508777938802" keyTimes="0;1" dur="20s" begin="-0.13935345093401696s"></animateTransform>
+
+<g transform="rotate(29.25688417608921)">
+
+<ellipse cx="0" cy="0" rx="4.48349" ry="0.699111" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-0.13935345093401696s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-0.13935345093401696s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-0.13935345093401696s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(959.855 639.832)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;0.0757515102668549 -468.54167208021977" keyTimes="0;1" dur="20s" begin="-5.299006116078474s"></animateTransform>
+
+<g transform="rotate(49.10958851028977)">
+
+<ellipse cx="0" cy="0" rx="0.0125156" ry="0.00072579" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-5.299006116078474s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-5.299006116078474s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-5.299006116078474s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(1010.56 665.328)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;2494.9721565799 1408.9127904672937" keyTimes="0;1" dur="20s" begin="-15.997224977546216s"></animateTransform>
+
+<g transform="rotate(26.607639150050453)">
+
+<ellipse cx="0" cy="0" rx="1.06359" ry="0.15811" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-15.997224977546216s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-15.997224977546216s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-15.997224977546216s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(960.287 639.986)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;2874.917844279722 546.9297764311461" keyTimes="0;1" dur="20s" begin="-5.292171493515335s"></animateTransform>
+
+<g transform="rotate(177.21745865653028)">
+
+<ellipse cx="0" cy="0" rx="0.0124486" ry="0.000720609" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-5.292171493515335s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-5.292171493515335s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-5.292171493515335s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(926.345 641.694)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;-954.5483363136675 736.3896442537446" keyTimes="0;1" dur="20s" begin="-14.165677755829664s"></animateTransform>
+
+<g transform="rotate(177.1178263712888)">
+
+<ellipse cx="0" cy="0" rx="0.60168" ry="0.0843761" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-14.165677755829664s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-14.165677755829664s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-14.165677755829664s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(960.365 640.751)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;1552.5505503809682 1857.5172999442962" keyTimes="0;1" dur="20s" begin="-6.954050398769694s"></animateTransform>
+
+<g transform="rotate(64.0483883598524)">
+
+<ellipse cx="0" cy="0" rx="0.0367204" ry="0.00295908" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-6.954050398769694s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-6.954050398769694s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-6.954050398769694s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(932.486 646.5)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;-849.73029460424 1067.5388277580573" keyTimes="0;1" dur="20s" begin="-13.758367511851183s"></animateTransform>
+
+<g transform="rotate(166.70789470157442)">
+
+<ellipse cx="0" cy="0" rx="0.529325" ry="0.0729758" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-13.758367511851183s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-13.758367511851183s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-13.758367511851183s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(964.664 640.024)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;2879.941461928209 649.9951714781275" keyTimes="0;1" dur="20s" begin="-9.302302348125709s"></animateTransform>
+
+<g transform="rotate(0.29827782721769014)">
+
+<ellipse cx="0" cy="0" rx="0.110481" ry="0.0116615" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-9.302302348125709s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-9.302302348125709s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-9.302302348125709s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(898.794 677.415)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;-455.13417313695663 1505.0742478140842" keyTimes="0;1" dur="20s" begin="-16.8030944832785s"></animateTransform>
+
+<g transform="rotate(148.56247487029455)">
+
+<ellipse cx="0" cy="0" rx="1.3689" ry="0.207605" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-16.8030944832785s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-16.8030944832785s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-16.8030944832785s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(974.804 659.588)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;1823.9118976053983 1783.106145197926" keyTimes="0;1" dur="20s" begin="-14.09316942582478s"></animateTransform>
+
+<g transform="rotate(52.91953438799183)">
+
+<ellipse cx="0" cy="0" rx="0.588164" ry="0.082252" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-14.09316942582478s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-14.09316942582478s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-14.09316942582478s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(960.016 639.978)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;1800.3760730204642 -510.87755037328" keyTimes="0;1" dur="20s" begin="-3.833004237856652s"></animateTransform>
+
+<g transform="rotate(126.13709053978057)">
+
+<ellipse cx="0" cy="0" rx="0.0027681" ry="9.19297e-05" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-3.833004237856652s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-3.833004237856652s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-3.833004237856652s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(960.5 640.071)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;2837.7238455742245 907.1272354032787" keyTimes="0;1" dur="20s" begin="-5.88636513782029s"></animateTransform>
+
+<g transform="rotate(8.096637092596486)">
+
+<ellipse cx="0" cy="0" rx="0.0191896" ry="0.00127758" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-5.88636513782029s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-5.88636513782029s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-5.88636513782029s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(959.943 639.942)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;-90.73055102669059 -431.31597354513224" keyTimes="0;1" dur="20s" begin="-4.453580337259489s"></animateTransform>
+
+<g transform="rotate(45.55579405109905)">
+
+<ellipse cx="0" cy="0" rx="0.00583966" ry="0.000258686" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-4.453580337259489s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-4.453580337259489s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-4.453580337259489s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(944.855 657.346)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;-5.908463726846321 1746.2289977317523" keyTimes="0;1" dur="20s" begin="-13.845580758018327s"></animateTransform>
+
+<g transform="rotate(131.12597189758617)">
+
+<ellipse cx="0" cy="0" rx="0.544105" ry="0.0752639" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-13.845580758018327s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-13.845580758018327s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-13.845580758018327s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(959.751 640.355)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;146.8406429487885 1799.5347457857704" keyTimes="0;1" dur="20s" begin="-6.047229298284891s"></animateTransform>
+
+<g transform="rotate(125.04123865084283)">
+
+<ellipse cx="0" cy="0" rx="0.0213553" ry="0.00146953" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-6.047229298284891s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-6.047229298284891s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-6.047229298284891s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(960.227 640.204)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;2103.8441485081903 1668.0554597931362" keyTimes="0;1" dur="20s" begin="-5.568572199688991s"></animateTransform>
+
+<g transform="rotate(41.948326417695476)">
+
+<ellipse cx="0" cy="0" rx="0.0153485" ry="0.000951848" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-5.568572199688991s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-5.568572199688991s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-5.568572199688991s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(983.41 674.209)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;1756.9124123275453 1804.537219877167" keyTimes="0;1" dur="20s" begin="-15.658405259992188s"></animateTransform>
+
+<g transform="rotate(55.615507089137026)">
+
+<ellipse cx="0" cy="0" rx="0.957369" ry="0.141004" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-15.658405259992188s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-15.658405259992188s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-15.658405259992188s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(915.483 624.978)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;-753.06738032573 61.95726783723342" keyTimes="0;1" dur="20s" begin="-15.297514289006786s"></animateTransform>
+
+<g transform="rotate(18.64601034779744)">
+
+<ellipse cx="0" cy="0" rx="0.85482" ry="0.124737" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-15.297514289006786s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-15.297514289006786s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-15.297514289006786s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(955.296 632.948)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;179.78417820222296 -529.5513425462527" keyTimes="0;1" dur="20s" begin="-11.323310781422736s"></animateTransform>
+
+<g transform="rotate(56.29247185202391)">
+
+<ellipse cx="0" cy="0" rx="0.236596" ry="0.0289417" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-11.323310781422736s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-11.323310781422736s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-11.323310781422736s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(959.924 640.262)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;595.1442593204029 1896.6764435504988" keyTimes="0;1" dur="20s" begin="-5.621208220538074s"></animateTransform>
+
+<g transform="rotate(106.1898030366814)">
+
+<ellipse cx="0" cy="0" rx="0.0159461" ry="0.00100117" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-5.621208220538074s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-5.621208220538074s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-5.621208220538074s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(974.625 746.306)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;1135.3595159523302 1914.6501114972627" keyTimes="0;1" dur="20s" begin="-18.69896152290933s"></animateTransform>
+
+<g transform="rotate(82.16672695783161)">
+
+<ellipse cx="0" cy="0" rx="2.5622" ry="0.400322" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-18.69896152290933s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-18.69896152290933s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-18.69896152290933s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(960 640)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;-24.446881226662867 -458.9417815017614" keyTimes="0;1" dur="20s" begin="-2.566295368138456s"></animateTransform>
+
+<g transform="rotate(48.14558797200509)">
+
+<ellipse cx="0" cy="0" rx="8.44704e-05" ry="5.88058e-07" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-2.566295368138456s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-2.566295368138456s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-2.566295368138456s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(646.646 830.708)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;-457.9924652485124 1502.991532982398" keyTimes="0;1" dur="20s" begin="-1.030081612080727s"></animateTransform>
+
+<g transform="rotate(148.67526727230077)">
+
+<ellipse cx="0" cy="0" rx="7.00387" ry="1.06073" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-1.030081612080727s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-1.030081612080727s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-1.030081612080727s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(949.926 660.821)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;370.5854366376601 1858.1936486265013" keyTimes="0;1" dur="20s" begin="-14.08580142507148s"></animateTransform>
+
+<g transform="rotate(115.81969710536056)">
+
+<ellipse cx="0" cy="0" rx="0.586806" ry="0.0820389" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-14.08580142507148s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-14.08580142507148s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-14.08580142507148s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(959.967 639.942)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;277.90208184130597 -556.5027612994234" keyTimes="0;1" dur="20s" begin="-4.385857356396646s"></animateTransform>
+
+<g transform="rotate(60.313558462852725)">
+
+<ellipse cx="0" cy="0" rx="0.0054372" ry="0.000234553" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-4.385857356396646s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-4.385857356396646s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-4.385857356396646s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(922.454 697.52)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;193.89042719617646 1813.6886057702097" keyTimes="0;1" dur="20s" begin="-17.171803839510677s"></animateTransform>
+
+<g transform="rotate(123.13395730854604)">
+
+<ellipse cx="0" cy="0" rx="1.53913" ry="0.235239" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-17.171803839510677s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-17.171803839510677s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-17.171803839510677s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(996.558 688.82)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;1817.581110276641 1785.2228583306267" keyTimes="0;1" dur="20s" begin="-16.760283622350595s"></animateTransform>
+
+<g transform="rotate(53.1729052466596)">
+
+<ellipse cx="0" cy="0" rx="1.35051" ry="0.204621" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-16.760283622350595s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-16.760283622350595s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-16.760283622350595s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(959.273 640.193)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;-823.3358620199151 1114.2775573830097" keyTimes="0;1" dur="20s" begin="-6.396162423868858s"></animateTransform>
+
+<g transform="rotate(165.10694398383995)">
+
+<ellipse cx="0" cy="0" rx="0.0266042" ry="0.00195555" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-6.396162423868858s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-6.396162423868858s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-6.396162423868858s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(966.294 689.196)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;1123.1811457422768 1915.3686898173123" keyTimes="0;1" dur="20s" begin="-16.46673054691417s"></animateTransform>
+
+<g transform="rotate(82.70872301385562)">
+
+<ellipse cx="0" cy="0" rx="1.23143" ry="0.185153" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-16.46673054691417s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-16.46673054691417s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-16.46673054691417s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(958.563 640.202)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;-918.8103525716026 903.7099914424264" keyTimes="0;1" dur="20s" begin="-7.270540415491152s"></animateTransform>
+
+<g transform="rotate(172.01015553855865)">
+
+<ellipse cx="0" cy="0" rx="0.043509" ry="0.00367145" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-7.270540415491152s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-7.270540415491152s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-7.270540415491152s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(960.178 640.128)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;2266.642270187295 1577.866604530325" keyTimes="0;1" dur="20s" begin="-5.201027373803834s"></animateTransform>
+
+<g transform="rotate(35.66959233152136)">
+
+<ellipse cx="0" cy="0" rx="0.0115767" ry="0.000653978" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-5.201027373803834s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-5.201027373803834s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-5.201027373803834s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(954.124 606.586)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;736.4268884353886 -631.2924418848224" keyTimes="0;1" dur="20s" begin="-15.330814721877024s"></animateTransform>
+
+<g transform="rotate(80.02579292687261)">
+
+<ellipse cx="0" cy="0" rx="0.863638" ry="0.12616" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-15.330814721877024s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-15.330814721877024s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-15.330814721877024s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(959.995 640.024)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;695.8474112813212 1907.8281358945603" keyTimes="0;1" dur="20s" begin="-3.829049848359651s"></animateTransform>
+
+<g transform="rotate(101.76922997620554)">
+
+<ellipse cx="0" cy="0" rx="0.00275273" ry="9.12153e-05" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-3.829049848359651s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-3.829049848359651s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-3.829049848359651s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(848.266 609.956)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;-820.618772799314 161.20670850579882" keyTimes="0;1" dur="20s" begin="-17.893430166467695s"></animateTransform>
+
+<g transform="rotate(15.050362871665191)">
+
+<ellipse cx="0" cy="0" rx="1.94629" ry="0.301199" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-17.893430166467695s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-17.893430166467695s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-17.893430166467695s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(911.516 665.672)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;-543.4925458455709 1436.0765358478218" keyTimes="0;1" dur="20s" begin="-15.934308511531023s"></animateTransform>
+
+<g transform="rotate(152.09945798785049)">
+
+<ellipse cx="0" cy="0" rx="1.04299" ry="0.154789" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-15.934308511531023s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-15.934308511531023s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-15.934308511531023s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(953.364 639.328)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;-938.2336041397336 447.8089097744683" keyTimes="0;1" dur="20s" begin="-10.063861328045807s"></animateTransform>
+
+<g transform="rotate(5.781343699089094)">
+
+<ellipse cx="0" cy="0" rx="0.14914" ry="0.0167804" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-10.063861328045807s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-10.063861328045807s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-10.063861328045807s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(959.877 640.049)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;-683.634839222917 1301.602269004794" keyTimes="0;1" dur="20s" begin="-4.696422000264928s"></animateTransform>
+
+<g transform="rotate(158.0740374363522)">
+
+<ellipse cx="0" cy="0" rx="0.00742977" ry="0.000359298" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-4.696422000264928s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-4.696422000264928s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-4.696422000264928s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(960.009 639.992)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;2085.521003569255 -397.0047617000839" keyTimes="0;1" dur="20s" begin="-3.4411834711093627s"></animateTransform>
+
+<g transform="rotate(137.34391545646304)">
+
+<ellipse cx="0" cy="0" rx="0.00147835" ry="3.79119e-05" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-3.4411834711093627s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-3.4411834711093627s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-3.4411834711093627s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(953.081 581.087)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;810.1350103870163 -636.0948214312639" keyTimes="0;1" dur="20s" begin="-16.995813229945078s"></animateTransform>
+
+<g transform="rotate(83.30184678371324)">
+
+<ellipse cx="0" cy="0" rx="1.45512" ry="0.221601" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-16.995813229945078s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-16.995813229945078s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-16.995813229945078s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(956.3 640.404)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;-934.8017063796617 846.6951523387066" keyTimes="0;1" dur="20s" begin="-8.872157577307467s"></animateTransform>
+
+<g transform="rotate(173.77448435697394)">
+
+<ellipse cx="0" cy="0" rx="0.0923432" ry="0.00937276" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-8.872157577307467s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-8.872157577307467s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-8.872157577307467s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(1000.74 563.852)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;1605.0313480909836 -565.6044237882284" keyTimes="0;1" dur="20s" begin="-17.9123409334687s"></animateTransform>
+
+<g transform="rotate(118.14799982353226)">
+
+<ellipse cx="0" cy="0" rx="1.95853" ry="0.303175" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-17.9123409334687s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-17.9123409334687s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-17.9123409334687s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(799.951 477.461)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;-93.64905126583926 -430.04126125358107" keyTimes="0;1" dur="20s" begin="-0.24243531338163624s"></animateTransform>
+
+<g transform="rotate(45.44224235146567)">
+
+<ellipse cx="0" cy="0" rx="4.68495" ry="0.72912" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-0.24243531338163624s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-0.24243531338163624s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-0.24243531338163624s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(884.854 643.546)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;-955.2095399812465 730.3632618682869" keyTimes="0;1" dur="20s" begin="-16.517572982315865s"></animateTransform>
+
+<g transform="rotate(177.29867846969745)">
+
+<ellipse cx="0" cy="0" rx="1.25122" ry="0.188335" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-16.517572982315865s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-16.517572982315865s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-16.517572982315865s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(959.961 640.004)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;-938.7988766739313 829.6931158380893" keyTimes="0;1" dur="20s" begin="-3.866752291259694s"></animateTransform>
+
+<g transform="rotate(174.2949869099653)">
+
+<ellipse cx="0" cy="0" rx="0.00290131" ry="9.81828e-05" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-3.866752291259694s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-3.866752291259694s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-3.866752291259694s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(1005.77 659.623)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;2574.9381202442682 1332.2988653855946" keyTimes="0;1" dur="20s" begin="-15.55292817401817s"></animateTransform>
+
+<g transform="rotate(23.204061263823352)">
+
+<ellipse cx="0" cy="0" rx="0.926564" ry="0.136052" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-15.55292817401817s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-15.55292817401817s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-15.55292817401817s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(960.05 639.986)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;2721.7415490016506 131.11594225042444" keyTimes="0;1" dur="20s" begin="-4.040813972508547s"></animateTransform>
+
+<g transform="rotate(163.888487897094)">
+
+<ellipse cx="0" cy="0" rx="0.00364764" ry="0.000135112" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-4.040813972508547s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-4.040813972508547s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-4.040813972508547s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(429.5 345.9)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;-516.2612130263603 -178.4138672969642" keyTimes="0;1" dur="20s" begin="-1.7876217428945564s"></animateTransform>
+
+<g transform="rotate(29.0032334822859)">
+
+<ellipse cx="0" cy="0" rx="12.2228" ry="1.7249" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-1.7876217428945564s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-1.7876217428945564s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-1.7876217428945564s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(959.918 640.004)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;-955.0705503893269 731.663120007801" keyTimes="0;1" dur="20s" begin="-4.29579886883565s"></animateTransform>
+
+<g transform="rotate(177.25968071648964)">
+
+<ellipse cx="0" cy="0" rx="0.00492867" ry="0.000204923" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-4.29579886883565s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-4.29579886883565s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-4.29579886883565s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(960.154 639.77)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;1742.3222369905775 -528.9257970005449" keyTimes="0;1" dur="20s" begin="-5.561646585105098s"></animateTransform>
+
+<g transform="rotate(123.7930479491654)">
+
+<ellipse cx="0" cy="0" rx="0.015271" ry="0.00094549" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-5.561646585105098s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-5.561646585105098s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-5.561646585105098s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(911.235 539.046)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;371.4753395465834 -578.3848550963216" keyTimes="0;1" dur="20s" begin="-18.680907999545727s"></animateTransform>
+
+<g transform="rotate(64.21775009775597)">
+
+<ellipse cx="0" cy="0" rx="2.54594" ry="0.397724" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-18.680907999545727s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-18.680907999545727s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-18.680907999545727s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(904.572 697.265)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;-81.02349409532735 1715.5195302202262" keyTimes="0;1" dur="20s" begin="-17.415186465527633s"></animateTransform>
+
+<g transform="rotate(134.06625933026754)">
+
+<ellipse cx="0" cy="0" rx="1.66441" ry="0.255571" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-17.415186465527633s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-17.415186465527633s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-17.415186465527633s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(960.014 640.021)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;1725.8852161119216 1813.753681474041" keyTimes="0;1" dur="20s" begin="-3.7953854767131183s"></animateTransform>
+
+<g transform="rotate(56.875177356761796)">
+
+<ellipse cx="0" cy="0" rx="0.0026239" ry="8.52865e-05" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-3.7953854767131183s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-3.7953854767131183s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-3.7953854767131183s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(942.293 628.694)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;-426.5850991843149 -245.38297117876834" keyTimes="0;1" dur="20s" begin="-13.272666492658932s"></animateTransform>
+
+<g transform="rotate(32.559651583797745)">
+
+<ellipse cx="0" cy="0" rx="0.453509" ry="0.0612963" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-13.272666492658932s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-13.272666492658932s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-13.272666492658932s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(773.592 618.59)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;-932.124276865153 422.6771772505537" keyTimes="0;1" dur="20s" begin="-19.153274970564485s"></animateTransform>
+
+<g transform="rotate(6.552083156632704)">
+
+<ellipse cx="0" cy="0" rx="3.01971" ry="0.472885" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-19.153274970564485s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-19.153274970564485s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-19.153274970564485s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(878.502 780.43)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;267.2016921628924 1833.7672404168504" keyTimes="0;1" dur="20s" begin="-19.616069361201824s"></animateTransform>
+
+<g transform="rotate(120.12857457159612)">
+
+<ellipse cx="0" cy="0" rx="3.6057" ry="0.564653" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-19.616069361201824s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-19.616069361201824s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-19.616069361201824s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(984.576 664.429)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;2029.463924960551 1703.0452929010594" keyTimes="0;1" dur="20s" begin="-14.937911438459743s"></animateTransform>
+
+<g transform="rotate(44.827546153794195)">
+
+<ellipse cx="0" cy="0" rx="0.765005" ry="0.110304" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-14.937911438459743s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-14.937911438459743s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-14.937911438459743s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(963.763 638.498)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;2607.1746004553934 -17.67801497714163" keyTimes="0;1" dur="20s" begin="-9.17881535070025s"></animateTransform>
+
+<g transform="rotate(158.23433803110052)">
+
+<ellipse cx="0" cy="0" rx="0.10502" ry="0.0109652" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-9.17881535070025s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-9.17881535070025s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-9.17881535070025s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(959.517 640.637)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;93.50204029539793 1782.235874809239" keyTimes="0;1" dur="20s" begin="-6.812174956672576s"></animateTransform>
+
+<g transform="rotate(127.18388478632198)">
+
+<ellipse cx="0" cy="0" rx="0.0339328" ry="0.00267496" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-6.812174956672576s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-6.812174956672576s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-6.812174956672576s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(943.817 626.487)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;-237.94573400472927 -360.29462734844515" keyTimes="0;1" dur="20s" begin="-13.427988766072687s"></animateTransform>
+
+<g transform="rotate(39.86216151851042)">
+
+<ellipse cx="0" cy="0" rx="0.476607" ry="0.0648421" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-13.427988766072687s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-13.427988766072687s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-13.427988766072687s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(944.531 630.332)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;-440.7309544330203 -235.43076210594995" keyTimes="0;1" dur="20s" begin="-12.877222322769391s"></animateTransform>
+
+<g transform="rotate(32.00461594800064)">
+
+<ellipse cx="0" cy="0" rx="0.399166" ry="0.0530097" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-12.877222322769391s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-12.877222322769391s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-12.877222322769391s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(960.146 640.131)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;2106.6894632456842 1666.6457302803199" keyTimes="0;1" dur="20s" begin="-5.138821523040783s"></animateTransform>
+
+<g transform="rotate(41.8384916439137)">
+
+<ellipse cx="0" cy="0" rx="0.0110047" ry="0.00061107" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-5.138821523040783s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-5.138821523040783s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-5.138821523040783s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(987.256 622.519)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;2343.635270429601 -247.4316094896692" keyTimes="0;1" dur="20s" begin="-14.491766007769925s"></animateTransform>
+
+<g transform="rotate(147.32482795407762)">
+
+<ellipse cx="0" cy="0" rx="0.666144" ry="0.0945548" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-14.491766007769925s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-14.491766007769925s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-14.491766007769925s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(960.112 640.007)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;2871.7255372156546 758.7068665195753" keyTimes="0;1" dur="20s" begin="-4.51024860821146s"></animateTransform>
+
+<g transform="rotate(3.553167622241254)">
+
+<ellipse cx="0" cy="0" rx="0.00618993" ry="0.000280152" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-4.51024860821146s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-4.51024860821146s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-4.51024860821146s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(962.288 646.028)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;1430.9574513794296 1880.8955688874587" keyTimes="0;1" dur="20s" begin="-10.807656048889289s"></animateTransform>
+
+<g transform="rotate(69.21672940843425)">
+
+<ellipse cx="0" cy="0" rx="0.196916" ry="0.0233179" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-10.807656048889289s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-10.807656048889289s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-10.807656048889289s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(960.756 641.973)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;1435.526195554542 1880.1209326945898" keyTimes="0;1" dur="20s" begin="-8.488743528970938s"></animateTransform>
+
+<g transform="rotate(69.0206052393715)">
+
+<ellipse cx="0" cy="0" rx="0.0781507" ry="0.0076354" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-8.488743528970938s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-8.488743528970938s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-8.488743528970938s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(967.382 611.629)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;1288.1349342776891 -621.168323404326" keyTimes="0;1" dur="20s" begin="-14.875929595528577s"></animateTransform>
+
+<g transform="rotate(104.58405298933592)">
+
+<ellipse cx="0" cy="0" rx="0.750476" ry="0.10798" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-14.875929595528577s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-14.875929595528577s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-14.875929595528577s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(947.118 638.994)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;-946.9649275664294 491.1006827393271" keyTimes="0;1" dur="20s" begin="-11.603085834968496s"></animateTransform>
+
+<g transform="rotate(4.464700777856711)">
+
+<ellipse cx="0" cy="0" rx="0.260755" ry="0.0324257" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-11.603085834968496s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-11.603085834968496s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-11.603085834968496s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(959.914 640.19)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;407.25886069944806 1865.8107943406687" keyTimes="0;1" dur="20s" begin="-5.325113111885056s"></animateTransform>
+
+<g transform="rotate(114.27150879358031)">
+
+<ellipse cx="0" cy="0" rx="0.0127737" ry="0.000745823" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-5.325113111885056s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-5.325113111885056s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-5.325113111885056s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(959.833 640.011)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;-950.8163285174296 765.0439188110787" keyTimes="0;1" dur="20s" begin="-4.821251807785429s"></animateTransform>
+
+<g transform="rotate(176.25589973098351)">
+
+<ellipse cx="0" cy="0" rx="0.00834018" ry="0.000420253" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-4.821251807785429s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-4.821251807785429s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-4.821251807785429s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(1155.99 980.657)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;1647.5780180980244 1835.1078926706703" keyTimes="0;1" dur="20s" begin="-1.4695641638022399s"></animateTransform>
+
+<g transform="rotate(60.08701329368392)">
+
+<ellipse cx="0" cy="0" rx="9.35584" ry="1.36821" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-1.4695641638022399s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-1.4695641638022399s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-1.4695641638022399s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(319.913 756.317)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;-892.4153132121132 976.6221141327919" keyTimes="0;1" dur="20s" begin="-1.7431213438774853s"></animateTransform>
+
+<g transform="rotate(169.70056298403833)">
+
+<ellipse cx="0" cy="0" rx="11.723" ry="1.6586" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-1.7431213438774853s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-1.7431213438774853s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-1.7431213438774853s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(957.901 645.526)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;488.77106609392536 1880.849761135891" keyTimes="0;1" dur="20s" begin="-10.606357714210349s"></animateTransform>
+
+<g transform="rotate(110.79492866576469)">
+
+<ellipse cx="0" cy="0" rx="0.182986" ry="0.0213776" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-10.606357714210349s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-10.606357714210349s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-10.606357714210349s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(959.542 641.646)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;609.8303102705452 1898.531982270486" keyTimes="0;1" dur="20s" begin="-8.14047287918773s"></animateTransform>
+
+<g transform="rotate(105.54851481621844)">
+
+<ellipse cx="0" cy="0" rx="0.0667235" ry="0.00627825" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-8.14047287918773s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-8.14047287918773s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-8.14047287918773s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(959.998 639.989)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;702.2383706675394 -628.4126462181646" keyTimes="0;1" dur="20s" begin="-3.4837218895446957s"></animateTransform>
+
+<g transform="rotate(78.51300640674263)">
+
+<ellipse cx="0" cy="0" rx="0.00159639" ry="4.22861e-05" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-3.4837218895446957s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-3.4837218895446957s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-3.4837218895446957s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(1282.42 1001.02)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;1942.240930021726 1739.8187235257465" keyTimes="0;1" dur="20s" begin="-1.6756695718841887s"></animateTransform>
+
+<g transform="rotate(48.23216662276711)">
+
+<ellipse cx="0" cy="0" rx="11.0244" ry="1.5756" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-1.6756695718841887s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-1.6756695718841887s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-1.6756695718841887s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g><g transform="translate(1003.03 638.71)">
+<animateTransform attributeName="transform" type="translate" repeatCount="indefinite" calcMode="spline" keySplines="1 0 1 0" values="960 640;2878.0614102746213 582.494729071226" keyTimes="0;1" dur="20s" begin="-14.868282578320631s"></animateTransform>
+
+<g transform="rotate(178.28273346639057)">
+
+<ellipse cx="0" cy="0" rx="0.748702" ry="0.107696" fill="#ffffff">
+  <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" repeatCount="indefinite" dur="20s" begin="-14.868282578320631s" calcMode="spline" keySplines="1 0 1 0;0.5 0 0.5 1"></animate>
+  <animate attributeName="ry" values="0;4.8" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-14.868282578320631s" calcMode="spline" keySplines="1 0 1 0"></animate>
+  <animate attributeName="rx" values="0;20" keyTimes="0;1" repeatCount="indefinite" dur="20s" begin="-14.868282578320631s" calcMode="spline" keySplines="0.95 0 0.95 0.05"></animate>
+
+
+</ellipse></g></g></g>
+</svg>

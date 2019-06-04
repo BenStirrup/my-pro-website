@@ -1,6 +1,7 @@
 <template>
   <ul
-    id="dropdown"
+    :id="heading"
+    class="dropdown"
     :class="{
       open: shouldMenuBeOpen,
       close: !shouldMenuBeOpen
@@ -10,12 +11,12 @@
     @click="toggleMenu()"
   >
     <span>{{ heading }}</span>
-    <ul id="drop">
+    <ul :id="heading + '-drop'" class="drop">
       <div>
         <slot />
       </div>
     </ul>
-    <i id="icon" class="icon-arrow-right" />
+    <i class="icon icon-arrow-right" />
   </ul>
 </template>
 
@@ -53,7 +54,7 @@ export default {
   },
   methods: {
     closeMenu() {
-      const dropdown = document.getElementById('dropdown')
+      const dropdown = document.getElementById(this.heading)
       if (dropdown) {
         if (this.isMobile) {
           dropdown.style.marginBottom = ''
@@ -62,18 +63,19 @@ export default {
       }
     },
     openMenu() {
-      const dropdown = document.getElementById('dropdown')
+      const dropdown = document.getElementById(this.heading)
       if (dropdown) {
         if (this.isMobile) {
-          const menuHeight = document.getElementById('drop').clientHeight
+          const menuHeight = document.getElementById(`${this.heading}-drop`)
+            .clientHeight
           dropdown.style.marginBottom = `${menuHeight + 10}px`
         }
         this.toggleOpen = true
       }
     },
     closeMenuWhenClickingOutside(event) {
-      const dropdown = document.getElementById('dropdown')
-      const menu = document.getElementById('drop')
+      const dropdown = document.getElementById(this.heading)
+      const menu = document.getElementById(`${this.heading}-drop`)
       const isClickInside =
         dropdown.contains(event.target) || menu.contains(event.target)
       if (!isClickInside && this.toggleOpen) {
@@ -92,22 +94,20 @@ export default {
 </script>
 
 <style scoped lang="scss">
-@import '~/assets/style/mixins.scss';
+$color: $white;
+$secondary-color: $black;
+$background-color: $black;
+$secondary-background-color: $white;
 
-$color: black;
-$secondary-color: white;
-$background-color: gainsboro;
-$secondary-background-color: black;
-
-#dropdown {
+.dropdown {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-around;
   box-sizing: border-box;
   position: relative;
   padding: 10px 5px;
   z-index: 0;
-  border: 1.5px solid black;
+  border: 1.5px solid $white;
   border-radius: 5px;
   background: $background-color;
   cursor: pointer;
@@ -115,11 +115,11 @@ $secondary-background-color: black;
     cursor: default;
   }
 
-  #icon {
+  .icon {
     transition: all 0.4s ease;
   }
 
-  #drop {
+  .drop {
     overflow: hidden;
     visibility: hidden;
     position: absolute;
@@ -133,7 +133,7 @@ $secondary-background-color: black;
 
       > * {
         text-align: center;
-        border: 1.5px solid black;
+        border: 1.5px solid $white;
         border-radius: 0px;
         border-bottom: none;
         width: 100%;
@@ -151,14 +151,14 @@ $secondary-background-color: black;
         &:last-child {
           border-bottom-left-radius: 5px;
           border-bottom-right-radius: 5px;
-          border-bottom: 1.5px solid black;
+          border-bottom: 1.5px solid $white;
         }
       }
     }
   }
 }
 
-#dropdown {
+.dropdown {
   &:hover {
     background-color: $secondary-background-color;
     color: $secondary-color;
@@ -167,26 +167,26 @@ $secondary-background-color: black;
   &:hover,
   &.open {
     transition: margin 0.4s;
-    #drop {
+    .drop {
       visibility: visible;
       div {
         transform: translate(0, 0);
       }
     }
-    #icon {
+    .icon {
       transform: rotateZ(+90deg);
     }
   }
 
   &.close {
     transition: margin 0.8s;
-    #drop {
+    .drop {
       visibility: hidden;
       div {
         transform: translate(0, -100%);
       }
     }
-    #icon {
+    .icon {
       transform: rotateZ(0);
     }
   }

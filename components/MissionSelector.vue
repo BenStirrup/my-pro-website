@@ -14,7 +14,7 @@
         {{ option.buttonText }}
       </v-button>
     </div>
-    <div class="mission">
+    <div class="text">
       {{ selectedOption.mission }}
     </div>
   </div>
@@ -27,17 +27,17 @@ const options = {
   corporate: {
     id: 'corporate',
     buttonText: 'Corporate innovator',
-    mission: 'Together, we can build your digital product at startup speed'
+    mission: 'Together, we can build your digital product at startup speed.'
   },
   entrepreneur: {
     id: 'entrepreneur',
     buttonText: 'Entrepreneur',
-    mission: 'Together, we can launch your MVP'
+    mission: 'Together, we can launch your MVP.'
   },
   agency: {
     id: 'agency',
     buttonText: 'Agency',
-    mission: 'Together, we can accelerate your delivery'
+    mission: 'Together, we can accelerate your delivery.'
   }
 }
 
@@ -58,17 +58,16 @@ export default {
 </script>
 
 <style scoped lang="scss">
-@import '~/assets/style/mixins.scss';
-
 .mission-selector-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
   width: 100%;
+  padding-top: 20px;
 
   > div {
-    padding-top: 15px;
+    padding-top: 30px;
   }
 
   .selector {
@@ -94,13 +93,13 @@ export default {
 
       &.selected {
         opacity: 1;
-        background-color: black;
-        color: white;
+        background-color: $white;
+        color: $black;
       }
     }
   }
 
-  .mission {
+  .text {
     width: 80%;
     @include tablet-and-up {
       width: 70%;

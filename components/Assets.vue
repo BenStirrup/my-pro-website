@@ -64,8 +64,6 @@
 </template>
 
 <style scoped lang="scss">
-@import '~/assets/style/mixins.scss';
-
 .assets-container {
   display: flex;
   flex-direction: column;

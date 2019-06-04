@@ -1,8 +1,8 @@
 <template>
   <div id="default-layout">
     <div id="background" />
+    <navbar />
     <div id="default-layout-content">
-      <navbar />
       <nuxt />
     </div>
     <v-footer />
@@ -44,18 +44,20 @@ export default {
 </script>
 
 <style lang="scss">
-@import '~/assets/style/mixins.scss';
-
 #background {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100vh;
-  background-image: url('/trianglify.svg');
-  background-size: cover;
-  background-attachment: fixed;
+  background-image: url('/stars.svg');
+  background-size: 100% 100%;
   z-index: -1;
+
+  // @include mobile-only {
+  //   background-image: none;
+  //   background-color: $black;
+  // }
 }
 
 #default-layout {
@@ -72,6 +74,7 @@ export default {
   #default-layout-content {
     max-width: 1200px;
     margin: auto;
+    z-index: 0;
   }
 }
 </style>

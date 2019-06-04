@@ -11,8 +11,9 @@ button {
   overflow: hidden;
   text-transform: normal;
   border-radius: 5px;
-  background-color: gainsboro;
-  border: 1.5px solid black;
+  color: $white;
+  background-color: $black;
+  border: 1.5px solid $white;
   padding: 10px 5px;
   cursor: pointer;
 }
@@ -27,7 +28,7 @@ button:after {
   height: 280px;
   margin-left: -140px;
   margin-top: -140px;
-  background: white;
+  background: $black;
   border-radius: 100%;
   opacity: 0.7;
 
@@ -65,9 +66,9 @@ button:focus {
 }
 
 button:hover {
-  background: black;
-  color: white;
+  background: $white;
+  color: $black;
   opacity: 1;
-  transition: all 0.4s ease;
+  transition: all 0.5s ease;
 }
 </style>
