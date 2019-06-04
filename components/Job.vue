@@ -1,29 +1,24 @@
 <template>
   <div class="job-container">
-    <div class="text-xxl semi-bold">
+    <div class="heading text-xxl semi-bold">
       Performance. Scalability. Design.
     </div>
-    <div class="text-xxl semi-bold">
-      Just for you.
+    <div class="heading text-xxl semi-bold">
+      At lightspeed.
     </div>
     <div class="subheading text-lg">
-      Hello, I'm Benjamin Stirrup.
-      <br />I am a professional
-      <div class="tooltip">
+      <span> I am a </span>
+      <span class="tooltip">
         <em>lead web engineer</em>
         <span class="tooltiptext text-xs"
           >An engineer who has the technical knowhow to lead the
           <strong>UI development</strong> across all device types as well as the
           design of complex<strong> back-end architectures</strong>.</span
         >
-      </div>
-      based in France, available for work in Europe.
-    </div>
-    <div class="definition text-sm">
-      A company's ability to innovate fast has become a matter of survival. To
-      address this challenge, I conceive and develop
+      </span>
+      : I conceive and develop
       <strong>tailor-made web applications</strong> in
-      <strong>record time</strong>.
+      <strong>record time</strong> for my French and European clients.
     </div>
     <mission-selector />
   </div>
@@ -40,34 +35,22 @@ export default {
 </script>
 
 <style scoped lang="scss">
-@import '~/assets/style/mixins.scss';
-
 .job-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
 
-  > div {
+  .heading {
     padding: 10px;
   }
 
   .subheading {
-    padding: 20px;
+    padding-top: 50px;
     max-width: 90%;
-
     @include tablet-and-up {
+      padding-top: 80px;
       max-width: 60%;
-    }
-  }
-
-  .definition {
-    text-align: left;
-    padding-left: 40px;
-    max-width: 90%;
-
-    @include tablet-and-up {
-      max-width: 70%;
     }
   }
 }

@@ -11,7 +11,8 @@
   align-items: center;
   border: 1px solid black;
   border-radius: 15px;
-  background: white;
+  color: $black;
+  background-color: $white;
   box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.75);
 }
 </style>

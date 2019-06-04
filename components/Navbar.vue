@@ -3,7 +3,7 @@
     <template>
       <div class="topnav">
         <nuxt-link to="/" class="logo">
-          <img src="/logos/logo_black.svg" alt="Logo of this website" />
+          <img src="/logos/logo.svg" alt="Logo of this website" />
         </nuxt-link>
         <mq-layout mq="mobile">
           <i
@@ -13,7 +13,7 @@
           />
           <i v-else class="icon-bars text-lg" @click="showMenu()" />
         </mq-layout>
-        <mq-layout mq="tablet+" class="menu text-sm">
+        <mq-layout mq="tablet+" class="menu text-xs">
           <drop-down class="item" heading="About me">
             <v-button @click="goTo('/', '#my-job')">
               What I do
@@ -127,20 +127,18 @@ export default {
 </script>
 
 <style scoped lang="scss">
-@import '~/assets/style/mixins.scss';
-
 .navbar-container {
+  display: flex;
+  flex-direction: column;
   position: fixed;
   top: 0;
+  left: 50%;
+  transform: translateX(-50%);
   width: 100vw;
   max-width: 1200px;
   padding: 15px 20px 0 20px;
-  background-image: url('/trianglify.svg');
-  background-size: cover;
-  background-attachment: fixed;
+  background-color: $black;
   z-index: 1;
-  display: flex;
-  flex-direction: column;
   &.responsive {
     height: 100vh;
   }
@@ -150,7 +148,7 @@ export default {
     justify-content: space-between;
     align-items: center;
     padding-bottom: 5px;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid white;
 
     i {
       padding: 15px 0 15px 15px;
@@ -177,15 +175,13 @@ export default {
   }
 
   .item {
-    display: flex;
-    justify-content: center;
     margin: 0 5px;
-    width: 160px;
+    width: 130px;
     &.responsive {
       margin: 15px;
     }
     &.small {
-      width: 100px;
+      width: 90px;
     }
   }
 }
