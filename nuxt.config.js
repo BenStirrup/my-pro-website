@@ -106,9 +106,11 @@ export default {
   /* Global CSS */
   css: [
     { src: '@/assets/style/main.scss', lang: 'scss' },
-    { src: '@/assets/style/mixins.scss', lang: 'scss' },
     { src: '@/assets/style/icomoon.css', lang: 'css' }
   ],
+  styleResources: {
+    scss: ['@/assets/style/mixins.scss', '@/assets/style/variables.scss']
+  },
 
   /* Plugins to load before mounting the App */
   plugins: [],
@@ -116,6 +118,7 @@ export default {
   /* Nuxt.js modules */
   modules: [
     '@nuxtjs/pwa',
+    '@nuxtjs/style-resources',
     [
       '@nuxtjs/google-analytics',
       {
