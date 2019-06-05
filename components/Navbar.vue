@@ -41,6 +41,9 @@
             <v-button @click="goTo('/technology', '#serverless'), hideMenu()">
               Serverless
             </v-button>
+            <v-button @click="goTo('/technology', '#cicd'), hideMenu()">
+              CI/CD
+            </v-button>
           </drop-down>
           <v-button
             class="item small"
@@ -77,6 +80,9 @@
           </v-button>
           <v-button @click="goTo('/technology', '#serverless'), hideMenu()">
             Serverless
+          </v-button>
+          <v-button @click="goTo('/technology', '#cicd'), hideMenu()">
+            CI/CD
           </v-button>
         </drop-down>
         <v-button

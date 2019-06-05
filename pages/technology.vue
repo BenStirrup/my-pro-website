@@ -94,6 +94,48 @@
         </div>
       </div>
     </div>
+    <div class="tech-section">
+      <a id="cicd" name="cicd" />
+      <div class="tech-section-title text-xl semi-bold">
+        CI/CD (Continuous Integration/Deployment)
+      </div>
+      <div class="tech-section-content">
+        <div class="technology">
+          <card>
+            <div class="card-title">
+              <img
+                class="card-logo"
+                src="/technologies/gitlab.svg"
+                alt="Logo of Gitlab"
+              />
+              <span class="text-md semi-bold">Gitlab</span>
+            </div>
+            <div class="card-description text-sm">
+              GitLab’s industry leading CI capabilities helps delivery teams
+              fully embrace continuous integration to automate the builds,
+              integration and verification of their code.
+            </div>
+          </card>
+        </div>
+        <div class="technology">
+          <card>
+            <div class="card-title">
+              <img
+                class="card-logo"
+                src="/technologies/circle_ci.svg"
+                alt="Logo of Circle CI"
+              />
+              <span class="text-md semi-bold">Circle CI</span>
+            </div>
+            <div class="card-description text-sm">
+              Circle CI enables delivery teams to automate their development
+              process quickly, safely, and at scale. CircleCI integrates with
+              GitHub and Bitbucket.
+            </div>
+          </card>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -116,10 +158,14 @@ export default {
     flex-direction: column;
     align-items: center;
     width: 80%;
+    padding-bottom: 20px;
+    @include tablet-and-up {
+      padding-bottom: 50px;
+    }
 
     .tech-section-title {
       text-align: center;
-      padding: 20px 0;
+      padding-bottom: 20px;
     }
 
     .tech-section-content {
