@@ -39,7 +39,7 @@ export default {
       { charset: 'utf-8' },
       {
         description:
-          'Performance. Scalability. Design. Just for you, I conceive and develop tailor-made web applications in record time.'
+          'Performance. Scalability. Design. At lightspeed. I conceive and develop tailor-made web applications in record time.'
       },
       { hid: 'description', name: 'description', content: pkg.description },
       { lang: 'en' },

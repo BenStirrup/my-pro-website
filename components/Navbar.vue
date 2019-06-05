@@ -2,9 +2,12 @@
   <div class="navbar-container" :class="{ responsive: showResponsiveMenu }">
     <template>
       <div class="topnav">
-        <nuxt-link to="/" class="logo">
-          <img src="/logos/logo.svg" alt="Logo of this website" />
-        </nuxt-link>
+        <img
+          class="logo"
+          src="/logos/logo.svg"
+          alt="Logo of this website"
+          @click="goTo('/')"
+        />
         <mq-layout mq="mobile">
           <i
             v-if="showResponsiveMenu"
@@ -37,6 +40,9 @@
             </v-button>
             <v-button @click="goTo('/technology', '#serverless'), hideMenu()">
               Serverless
+            </v-button>
+            <v-button @click="goTo('/technology', '#cicd'), hideMenu()">
+              CI/CD
             </v-button>
           </drop-down>
           <v-button
@@ -74,6 +80,9 @@
           </v-button>
           <v-button @click="goTo('/technology', '#serverless'), hideMenu()">
             Serverless
+          </v-button>
+          <v-button @click="goTo('/technology', '#cicd'), hideMenu()">
+            CI/CD
           </v-button>
         </drop-down>
         <v-button
@@ -156,6 +165,7 @@ export default {
     }
 
     .logo {
+      cursor: pointer;
       width: 100%;
       max-width: 40px;
       @include tablet-and-up {
