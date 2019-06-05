@@ -53,11 +53,6 @@ export default {
   background-image: url('/stars.svg');
   background-size: 100% 100%;
   z-index: -1;
-
-  // @include mobile-only {
-  //   background-image: none;
-  //   background-color: $black;
-  // }
 }
 
 #default-layout {

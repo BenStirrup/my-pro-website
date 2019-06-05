@@ -3,19 +3,16 @@
     <div class="heading text-xxl semi-bold">These companies trust me</div>
     <div class="logos">
       <div class="euler-hermes">
-        <img
-          src="/logos/euler_hermes_logo_black.svg"
-          alt="Logo of Euler Hermes"
-        />
+        <img src="/logos/euler_hermes_logo.svg" alt="Logo of Euler Hermes" />
       </div>
       <div class="candriam">
-        <img src="/logos/candriam_logo_black.svg" alt="Logo of Candriam" />
+        <img src="/logos/candriam_logo.svg" alt="Logo of Candriam" />
       </div>
       <div class="sipios">
-        <img src="/logos/sipios_logo_black.svg" alt="Logo of Sipios" />
+        <img src="/logos/sipios_logo.svg" alt="Logo of Sipios" />
       </div>
       <div class="theodo">
-        <img src="/logos/theodo_logo_black.svg" alt="Logo of Theodo" />
+        <img src="/logos/theodo_logo.svg" alt="Logo of Theodo" />
       </div>
     </div>
   </div>
