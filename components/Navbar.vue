@@ -2,9 +2,12 @@
   <div class="navbar-container" :class="{ responsive: showResponsiveMenu }">
     <template>
       <div class="topnav">
-        <nuxt-link to="/" class="logo">
-          <img src="/logos/logo.svg" alt="Logo of this website" />
-        </nuxt-link>
+        <img
+          class="logo"
+          src="/logos/logo.svg"
+          alt="Logo of this website"
+          @click="goTo('/')"
+        />
         <mq-layout mq="mobile">
           <i
             v-if="showResponsiveMenu"
@@ -156,6 +159,7 @@ export default {
     }
 
     .logo {
+      cursor: pointer;
       width: 100%;
       max-width: 40px;
       @include tablet-and-up {
