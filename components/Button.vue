@@ -71,4 +71,8 @@ button:hover {
   opacity: 1;
   transition: all 0.5s ease;
 }
+
+button::-moz-focus-inner {
+  border: 0; // Mozilla: remove dotted border on focused buttons
+}
 </style>
