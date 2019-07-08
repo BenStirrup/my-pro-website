@@ -38,11 +38,17 @@
             <v-button @click="goTo('/technology', '#django'), hideMenu()">
               Django
             </v-button>
+            <v-button @click="goTo('/technology', '#express'), hideMenu()">
+              Express.js
+            </v-button>
             <v-button @click="goTo('/technology', '#serverless'), hideMenu()">
               Serverless
             </v-button>
             <v-button @click="goTo('/technology', '#cicd'), hideMenu()">
               CI/CD
+            </v-button>
+            <v-button @click="goTo('/technology', '#databases'), hideMenu()">
+              Databases
             </v-button>
           </drop-down>
           <v-button
@@ -78,11 +84,17 @@
           <v-button @click="goTo('/technology', '#django'), hideMenu()">
             Django
           </v-button>
+          <v-button @click="goTo('/technology', '#express'), hideMenu()">
+            Express.js
+          </v-button>
           <v-button @click="goTo('/technology', '#serverless'), hideMenu()">
             Serverless
           </v-button>
           <v-button @click="goTo('/technology', '#cicd'), hideMenu()">
             CI/CD
+          </v-button>
+          <v-button @click="goTo('/technology', '#databases'), hideMenu()">
+            Databases
           </v-button>
         </drop-down>
         <v-button

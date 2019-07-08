@@ -3,95 +3,86 @@
     <div class="tech-section">
       <div class="tech-section-title text-xl semi-bold">Frontend</div>
       <div class="tech-section-content">
-        <div class="technology">
-          <a id="react" name="react" />
-          <card>
-            <div class="card-title">
-              <img
-                class="card-logo"
-                src="/technologies/react.svg"
-                alt="Logo of React"
-              />
-              <span class="text-md semi-bold">React.js</span>
-            </div>
-            <div class="card-description text-sm">
-              React is a JavaScript library for building user interfaces. Its
+        <card
+          id="react"
+          class="two"
+          logo-src="/technologies/react.svg"
+          logo-alt="Logo of React"
+          title="React.js"
+          description="React is a JavaScript library for building user interfaces. Its
               main contributor is Facebook. React can be used as a base in the
-              development of single-page or mobile applications.
-            </div>
-          </card>
-        </div>
-        <div class="technology">
-          <a id="vue" name="vue" />
-          <card>
-            <div class="card-title">
-              <img
-                class="card-logo"
-                src="/technologies/vue.svg"
-                alt="Logo of Vue"
-              />
-              <span class="text-md semi-bold">Vue.js</span>
-            </div>
-            <div class="card-description text-sm">
-              Vue is a progressive framework for building user interfaces. The
+              development of single-page or mobile applications."
+        />
+        <card
+          id="vue"
+          class="two"
+          logo-src="/technologies/vue.svg"
+          logo-alt="Logo of Vue"
+          title="Vue.js"
+          description="Vue is a progressive framework for building user interfaces. The
               core library is focused on the view layer only. However, Vue is
               also perfectly capable of powering sophisticated single-page
-              applications.
-            </div>
-          </card>
-        </div>
+              applications."
+        />
       </div>
     </div>
     <div class="tech-section">
       <div class="tech-section-title text-xl semi-bold">Backend</div>
       <div class="tech-section-content">
-        <div class="technology">
-          <a id="django" name="django" />
-          <card>
-            <div class="card-title">
-              <img
-                class="card-logo"
-                src="/technologies/django.svg"
-                alt="Logo of Django"
-              />
-              <span class="text-md semi-bold">Django</span>
-            </div>
-            <div class="card-description text-sm">
-              Django is a high-level Python web framework that emphasizes
-              reusability and "pluggability" of components, less code, low
+        <card
+          id="django"
+          class="two"
+          logo-src="/technologies/django.svg"
+          logo-alt="Logo of Django"
+          title="Django"
+          description="Django is a high-level Python web framework that emphasizes
+              reusability and 'pluggability' of components, less code, low
               coupling, rapid development, and the principle of don't repeat
-              yourself.
-            </div>
-          </card>
-        </div>
-        <div class="technology">
-          <a id="serverless" name="serverless" />
-          <card>
-            <div class="card-title">
-              <img
-                class="card-logo"
-                src="/technologies/aws_lambda.svg"
-                alt="Logo of AWS Lambda"
-              />
-              <img
-                class="card-logo"
-                src="/technologies/google_cloud_functions.svg"
-                alt="Logo of Google Cloud Functions"
-              />
-              <img
-                class="card-logo"
-                src="/technologies/netlify.svg"
-                alt="Logo of Netlify"
-              />
-              <span class="text-md semi-bold">Serverless</span>
-            </div>
-            <div class="card-description text-sm">
-              Serverless computing is an execution model where the cloud
-              provider (AWS, Google Cloud or Netlify) is responsible for
-              executing a piece of code by dynamically allocating the resources.
-            </div>
-          </card>
-        </div>
+              yourself."
+        />
+        <card
+          id="express"
+          class="two"
+          logo-src="/technologies/nodejs.svg"
+          logo-alt="Logo of Node.js"
+          title="Express.js"
+          description="Express is fast, unopinionated and flexible Node.js web application framework
+          that provides a robust set of features for web and mobile applications"
+        />
+      </div>
+    </div>
+    <div class="tech-section">
+      <a id="serverless" name="serverless" />
+      <div class="tech-section-title text-xl semi-bold">
+        Serverless
+      </div>
+      <div class="tech-section-content">
+        <card
+          class="three"
+          logo-src="/technologies/google_app_engine.svg"
+          logo-alt="Logo of Google App Engine"
+          title="Google App Engine"
+          description="Google App Engine is a Platform as a Service and cloud computing platform
+            for developing and hosting web applications in Google-managed data centers."
+        />
+        <card
+          class="three"
+          logo-src="/technologies/firebase.svg"
+          logo-alt="Logo of Firebase"
+          title="Firebase"
+          description="Firebase is Google's mobile platform that helps you quickly develop
+            high-quality apps with services such as Authentication, Cloud Functions and Firestore
+            (NoSQL database)."
+        />
+        <card
+          class="three"
+          logo-src="/technologies/netlify.svg"
+          logo-alt="Logo of Netlify"
+          title="Netlify"
+          description="Netlify offers hosting and serverless backend services for static websites.
+             It features continuous deployment across a global CDN, serverless form handling,
+             and support for AWS Lambda functions."
+        />
       </div>
     </div>
     <div class="tech-section">
@@ -100,50 +91,57 @@
         CI/CD (Continuous Integration/Deployment)
       </div>
       <div class="tech-section-content">
-        <div class="technology">
-          <card>
-            <div class="card-title">
-              <img
-                class="card-logo"
-                src="/technologies/gitlab.svg"
-                alt="Logo of Gitlab"
-              />
-              <span class="text-md semi-bold">Gitlab</span>
-            </div>
-            <div class="card-description text-sm">
-              GitLab’s industry leading CI capabilities helps delivery teams
+        <card
+          class="two"
+          logo-src="/technologies/gitlab.svg"
+          logo-alt="Logo of Gitlab"
+          title="Gitlab"
+          description="GitLab’s industry leading CI capabilities helps delivery teams
               fully embrace continuous integration to automate the builds,
-              integration and verification of their code.
-            </div>
-          </card>
-        </div>
-        <div class="technology">
-          <card>
-            <div class="card-title">
-              <img
-                class="card-logo"
-                src="/technologies/circle_ci.svg"
-                alt="Logo of Circle CI"
-              />
-              <span class="text-md semi-bold">Circle CI</span>
-            </div>
-            <div class="card-description text-sm">
-              Circle CI enables delivery teams to automate their development
-              process quickly, safely, and at scale. CircleCI integrates with
-              GitHub and Bitbucket.
-            </div>
-          </card>
-        </div>
+              integration and verification of their code."
+        />
+        <card
+          class="two"
+          logo-src="/technologies/google_cloud_build.svg"
+          logo-alt="Logo of Google Cloud Build"
+          title="Google Cloud Build"
+          description="A fully managed continuous integration, delivery, & deployment platform
+             that lets you build, test, and deploy on Google Cloud Platform infrastructure."
+        />
+      </div>
+    </div>
+    <div class="tech-section">
+      <a id="databases" name="databases" />
+      <div class="tech-section-title text-xl semi-bold">
+        Databases
+      </div>
+      <div class="tech-section-content">
+        <card
+          class="two"
+          logo-src="/technologies/postgresql.svg"
+          logo-alt="Logo of PostgreSQL"
+          title="PostgreSQL"
+          description="PostgreSQL is a powerful, open source object-relational database system with over 30 years of
+             active development that has earned it a strong reputation for reliability, feature robustness, and performance"
+        />
+        <card
+          class="two"
+          logo-src="/technologies/firestore.svg"
+          logo-alt="Logo of Firestore"
+          title="Firestore (NoSQL)"
+          description="Firebase's (and Google's) Cloud Firestore is a NoSQL document database that lets you easily store, sync,
+             and query data for your mobile and web apps - at global scale."
+        />
       </div>
     </div>
   </div>
 </template>
 
 <script>
-import Card from '~/components/Card.vue'
+import TechnologyCard from '~/components/TechnologyCard.vue'
 
 export default {
-  components: { card: Card }
+  components: { card: TechnologyCard }
 }
 </script>
 
@@ -172,36 +170,26 @@ export default {
       display: flex;
       flex-wrap: wrap;
 
-      .technology {
+      .two,
+      .three {
+        min-height: 200px;
         padding: 15px 0px;
         width: 100%;
+      }
+
+      .two {
         @include tablet-and-up {
-          padding: 15px 20px;
           width: 50%;
+          min-height: 240px;
+          padding: 15px 20px;
         }
+      }
 
-        .card {
-          padding: 20px;
-          min-height: 200px;
-
-          @include tablet-and-up {
-            min-height: 240px;
-          }
-
-          .card-title {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            img {
-              height: 40px;
-              padding-right: 10px;
-            }
-          }
-
-          .card-description {
-            padding-top: 15px;
-            padding-left: 10px;
-          }
+      .three {
+        @include tablet-and-up {
+          width: 33%;
+          min-height: 280px;
+          padding: 15px 10px;
         }
       }
     }

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="312px" height="278px" viewBox="0 0 312 278" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Cloud_Firestore_Hex</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="225520%" y1="113617%" x2="225520%" y2="118037%" id="linearGradient-1">
+            <stop stop-color="#4387FD" offset="0%"></stop>
+            <stop stop-color="#4683EA" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Cloud_Firestore_Hex" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g>
+            <g id="Group-17-Copy-11" fill="url(#linearGradient-1)" fill-rule="nonzero">
+                <path d="M67.920766,263.342 L3.98629787,152.7278 C-1.01869659,144.070077 -1.01869659,133.403323 3.98629787,124.7456 L67.920766,14.1314 C72.9324479,5.48791845 82.1772643,0.16767335 92.1782553,0.1716 L220.047191,0.1716 C230.048182,0.16767335 239.292999,5.48791845 244.304681,14.1314 L308.239149,124.7456 C313.244143,133.403323 313.244143,144.070077 308.239149,152.7278 L244.304681,263.342 C239.292999,271.985482 230.048182,277.305727 220.047191,277.3018 L92.1782553,277.3018 C82.1772643,277.305727 72.9324479,271.985482 67.920766,263.342 Z" id="Shape"></path>
+            </g>
+            <path d="M293.524842,175.989804 L209,99 L107,106 L107,129 L119,139 L130.5,147.5 L108,172 L205.287158,275.989804 C205.287158,275.989804 222.5,277.489804 232,273.5 C234.539566,271.181266 239.656588,269.520042 245,261.5 C250.343412,253.479958 293.524842,175.989804 293.524842,175.989804 Z" id="Shape" fill="#000000" fill-rule="nonzero" opacity="0.07"></path>
+            <g id="Group-11-Copy-4" transform="translate(106.000000, 81.000000)" fill="#FFFFFF">
+                <polygon id="Rectangle-15" points="0.902735562 20.4855521 52.709637 0 103.866083 19.0345717 103.866083 48.2069143 52.709637 29.1723426 0.902735562 49.6578947"></polygon>
+                <polygon id="Rectangle-15" points="1.55319149 62.7930857 52.709637 43.7585139 103.866083 62.7930857 103.866083 91.9654283 52.709637 72.9308566 1.55319149 91.9654283"></polygon>
+                <polygon id="Rectangle-15" points="52.709637 85.4742002 67.3257643 84.6723426 92.9039871 95.6119711 52.709637 111"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
