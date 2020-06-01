@@ -1,14 +1,14 @@
 <template>
   <ul
     :id="heading"
-    class="dropdown"
     :class="{
       open: shouldMenuBeOpen,
       close: !shouldMenuBeOpen
     }"
+    @click="toggleMenu()"
     @mouseover="isHovering = true"
     @mouseout="isHovering = false"
-    @click="toggleMenu()"
+    class="dropdown"
   >
     <span>{{ heading }}</span>
     <ul :id="heading + '-drop'" class="drop">

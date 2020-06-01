@@ -7,9 +7,9 @@
       <v-button
         v-for="option in options"
         :key="option.id"
-        class="option"
         :class="{ selected: selectedOption.id === option.id }"
         @click="select(option.id)"
+        class="option"
       >
         {{ option.buttonText }}
       </v-button>

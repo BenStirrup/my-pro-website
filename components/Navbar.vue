@@ -1,20 +1,20 @@
 <template>
-  <div class="navbar-container" :class="{ responsive: showResponsiveMenu }">
+  <div :class="{ responsive: showResponsiveMenu }" class="navbar-container">
     <template>
       <div class="topnav">
         <img
+          @click="goTo('/')"
           class="logo"
           src="/logos/logo.svg"
           alt="Logo of this website"
-          @click="goTo('/')"
         />
         <mq-layout mq="mobile">
           <i
             v-if="showResponsiveMenu"
-            class="icon-times text-lg"
             @click="hideMenu()"
+            class="icon-times text-lg"
           />
-          <i v-else class="icon-bars text-lg" @click="showMenu()" />
+          <i v-else @click="showMenu()" class="icon-bars text-lg" />
         </mq-layout>
         <mq-layout mq="tablet+" class="menu text-xs">
           <drop-down class="item" heading="About me">
@@ -52,12 +52,12 @@
             </v-button>
           </drop-down>
           <v-button
+            @click="goToExternal('medium.com/@benjamin.stirrup')"
             class="item small"
             value="Go to Medium blog"
-            @click="goToExternal('medium.com/@benjamin.stirrup')"
             >Blog
           </v-button>
-          <v-button class="item small" @click="goTo('/contact')"
+          <v-button @click="goTo('/contact')" class="item small"
             >Contact
           </v-button>
         </mq-layout>
@@ -98,14 +98,14 @@
           </v-button>
         </drop-down>
         <v-button
+          @click="goToExternal('medium.com/@benjamin.stirrup')"
           class="item responsive"
           value="Go to Medium blog"
-          @click="goToExternal('medium.com/@benjamin.stirrup')"
           >Blog
         </v-button>
         <v-button
-          class="item responsive text-sm"
           @click="goTo('/contact'), hideMenu()"
+          class="item responsive text-sm"
           >Contact
         </v-button>
       </div>

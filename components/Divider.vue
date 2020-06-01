@@ -1,5 +1,5 @@
 <template>
-  <div class="divider div-transparent" :class="{ nomargin: noMargin }" />
+  <div :class="{ nomargin: noMargin }" class="divider div-transparent" />
 </template>
 
 <script>

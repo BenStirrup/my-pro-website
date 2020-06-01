@@ -3,7 +3,7 @@
     <a v-if="id" :id="id" :name="id" />
     <card>
       <div class="card-title">
-        <img class="card-logo" :src="logoSrc" :alt="logoAlt" />
+        <img :src="logoSrc" :alt="logoAlt" class="card-logo" />
         <span class="text-md semi-bold">{{ title }}</span>
       </div>
       <div class="card-description text-sm">
